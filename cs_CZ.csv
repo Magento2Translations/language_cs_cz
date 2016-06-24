@@ -228,7 +228,7 @@ System,Systém,module,Magento_Backend
 "Store View","Zobrazení obchodu",module,Magento_Backend
 "Unable to delete store view. Please, try again later.","Zobrazení obchodu nelze odstranit. Zkuste to později prosím.",module,Magento_Backend
 "This website cannot be deleted.","Tento web nelze odstranit.",module,Magento_Backend
-"Unable to delete website. Please, try again later.","Web nelze odstranit. Zkuste to později prosím.",module,Magento_Backend
+"Unable to delete website. Please, try again later.","Nelze odstranit webovou stránku. Opakujte akci později, prosím.",module,Magento_Backend
 "The website does not exist.","Tento web neexistuje.",module,Magento_Backend
 "The store does not exist","Tento obchod neexistuje",module,Magento_Backend
 "Store view doesn't exist","Zobrazení obchodu neexistuje",module,Magento_Backend
