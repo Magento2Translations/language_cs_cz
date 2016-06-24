@@ -1140,7 +1140,6 @@ State/Province,"Kraj / region",module,Magento_Checkout
 "My Cart (1 item)","Můj košík (1)",module,Magento_Checkout
 "My Cart (%1 items)","Můj košík (%1)",module,Magento_Checkout
 "My Cart","Můj košík",module,Magento_Checkout
-"Minimum order amount is %1","Minimální hodnota objednávky je %1",module,Magento_Checkout
 "Customer is already registered","Zákazník je již registrován",module,Magento_Checkout
 "Your session has expired","Platnost relace vypršela",module,Magento_Checkout
 "You added %1 to your shopping cart.","Produkt %1 byl vložen do košíku.",module,Magento_Checkout
@@ -2753,9 +2752,6 @@ Yes,Ano,module,Magento_Payment
 No,Ne,module,Magento_Payment
 "Expiration Date","Datum expirace",module,Magento_Payment
 "Card Verification Number","Ověřovací číslo karty",module,Magento_Payment
-"Switch/Solo/Maestro Only","Pouze karty Switch/Solo/Maestro",module,Magento_Payment
-"Issue Number","Číslo vydání",module,Magento_Payment
-"Start Date","Datum zahájení",module,Magento_Payment
 "Please Select","Zvolte prosím",module,Magento_Payment
 "--Please Select--","-- Zvolte prosím --",module,Magento_Payment
 "Card Verification Number Visual Reference","Nápověda ke kontrolnímu číslu karty",module,Magento_Payment
