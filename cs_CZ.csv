@@ -6345,6 +6345,7 @@ Details,Podrobnosti,module,Magento_Catalog
 "Send Payment Failed Email Copy To","Zaslat kopii e-mailu neúspěšné platby na",module,Magento_Checkout
 "Separate by "","".","Oddělené "","".",module,Magento_Checkout
 "Send Payment Failed Email Copy Method","Způsob kopie e-mailu o neúspěšné platbě",module,Magento_Checkout
+Summary,Souhrn,module,Magento_Checkout
 "Order Total","Objednávka celkem",module,Magento_Checkout
 "We'll send your order confirmation here.","Potvrzení objednávky vám zasíláme e-mailem.",module,Magento_Checkout
 Payment,Platba,module,Magento_Checkout
