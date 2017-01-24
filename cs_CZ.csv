@@ -278,7 +278,9 @@ System,Systém,module,Magento_Backend
 "Store view doesn't exist","Zobrazení obchodu neexistuje",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","Před změnou kódu zobrazení obchodu se ujistěte, že není použit v index.php.",module,Magento_Backend
 "You saved the website.","Web byl uložen.",module,Magento_Backend
+"An inactive store view cannot be saved as default store view","Neaktivní obchod nelze uložit jako výchozí",module,Magento_Backend
 "You saved the store.","Obchod byl uložen.",module,Magento_Backend
+"The default store cannot be disabled","Výchozí obchod nelze vypnout",module,Magento_Backend
 "You saved the store view.","Zobrazení obchodu bylo uloženo.",module,Magento_Backend
 "Something went wrong while saving. Please review the error log.","Při ukládání se něco se nezdařilo. Podívejte se do protokolu chyb.",module,Magento_Backend
 "Last 24 Hours","Posledních 24 hodin",module,Magento_Backend
@@ -314,6 +316,7 @@ password,heslo,module,Magento_Backend
 "All Websites","Všechny weby",module,Magento_Backend
 "Reload Data",Aktualizovat,module,Magento_Backend
 "Browse Files...","Procházet soubory...",module,Magento_Backend
+"Copyright &copy; %1 Magento Commerce Inc. All rights reserved.","Copyright &copy; %1 Magento Commerce Inc. Všechna práva vyhrazena.",module,Magento_Backend
 "Magento Admin Panel","Magento správa",module,Magento_Backend
 "Account Setting","Nastavení účtu",module,Magento_Backend
 "Customer View","Zobrazit obchod",module,Magento_Backend
