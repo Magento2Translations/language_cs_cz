@@ -273,7 +273,7 @@ Time,Čas,module,Magento_Backend
 Hour,Hodina,module,Magento_Backend
 Minute,Minuta,module,Magento_Backend
 "JavaScript may be disabled in your browser.","Javascript ve vašem prohlížeči může být vypnutý.",module,Magento_Backend
-"To use this website you must first enable JavaScript in your browser.","Chcete-li používat tuto stránku, zapněte javascript ve vašem prohlížeči.",module,Magento_Backend
+"To use this website you must first enable JavaScript in your browser.","Chcete-li použít tuto webovou stránku je třeba nejprve povolit JavaScript ve vašem prohlížeči.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Toto je pouze testovací obchod. Můžete procházet a objednávat produkty, ale žádné transakce nebo objednávky nebudou zpracovány.",module,Magento_Backend
 "Stores Configuration","Nastavení obchodů",module,Magento_Backend
 "Additional Cache Management","Správa dalších mezipamětí",module,Magento_Backend
@@ -284,7 +284,6 @@ Minute,Minuta,module,Magento_Backend
 "Flush Static Files Cache","Vyprázdnit mezipaměť statických souborů",module,Magento_Backend
 "Preprocessed view files and static files","Předzpracované zobrazované soubory a statické soubory",module,Magento_Backend
 Catalog,Katalog,module,Magento_Backend
-JavaScript/CSS,Javaskript/CSS,module,Magento_Backend
 "JavaScript/CSS Cache","Mezipaměť JS/CSS",module,Magento_Backend
 "No records found.","Nebyly nalezeny žádné záznamy.",module,Magento_Backend
 Images,Obrázky,module,Magento_Backend
@@ -566,7 +565,6 @@ Reset,Obnovit,module,Magento_Catalog
 "Use All Available Attributes","Použít všechny dostupné atributy",module,Magento_Catalog
 "Custom Design","Vlastní design",module,Magento_Catalog
 Name,Název,module,Magento_Catalog
-SKU,Kód,module,Magento_Catalog
 Price,Cena,module,Magento_Catalog
 Position,Pořadí,module,Magento_Catalog
 "Category Data","Data kategorie",module,Magento_Catalog
@@ -583,7 +581,7 @@ Year,Rok,module,Magento_Catalog
 "[STORE VIEW]",[ZOBRAZENÍ],module,Magento_Catalog
 "WYSIWYG Editor",Editor,module,Magento_Catalog
 "Add Product","Přidat produkt",module,Magento_Catalog
-label,označení,module,Magento_Catalog
+label,štítek,module,Magento_Catalog
 "Product Attributes","Atributy produktů",module,Magento_Catalog
 "Add New Attribute","Přidat nový atribut",module,Magento_Catalog
 "Save in New Attribute Set","Uložit v nové sadě atributů",module,Magento_Catalog
@@ -914,7 +912,7 @@ Role,Funkce,module,Magento_Catalog
 "In stock",Skladem,module,Magento_Catalog
 "Out of stock","Není skladem",module,Magento_Catalog
 "You have no items to compare.","K porovnání nebyl zvolen žádný produkt.",module,Magento_Catalog
-"Remove This Item","Odebrat položku",module,Magento_Catalog
+"Remove This Item","Odebrat tuto položku",module,Magento_Catalog
 Compare,Porovnat,module,Magento_Catalog
 "Clear All","Odebrat vše",module,Magento_Catalog
 Prev,Předchozí,module,Magento_Catalog
@@ -1004,7 +1002,7 @@ Subtotal,Mezisoučet,module,Magento_Checkout
 "What's this?","Co to znamená?",module,Magento_Checkout
 "Edit item parameters","Upravit parametry",module,Magento_Checkout
 Edit,Upravit,module,Magento_Checkout
-"Remove item","Odstranit položku",module,Magento_Checkout
+"Remove item","Odebrat položku",module,Magento_Checkout
 "You have no items in your shopping cart.","Košík neobsahuje žádné položky.",module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","Pokračujte v nákupu <a href=""%1"">kliknutím zde</a>.",module,Magento_Checkout
 "Estimate Shipping and Tax","Odhad přepravného",module,Magento_Checkout
@@ -1163,7 +1161,7 @@ Quantity,Množství,module,Magento_Customer
 Price,Cena,module,Magento_Customer
 Total,Celkem,module,Magento_Customer
 Action,Činnost,module,Magento_Customer
-Configure,Konfigurace,module,Magento_Customer
+Configure,Nastavit,module,Magento_Customer
 Delete,Smazat,module,Magento_Customer
 "Shopping Cart from %1","Nákupní košík z %1",module,Magento_Customer
 Newsletter,Zpravodaj,module,Magento_Customer
@@ -1172,7 +1170,7 @@ Newsletter,Zpravodaj,module,Magento_Customer
 "Last Date Subscribed","Naposledy přihlášen",module,Magento_Customer
 "Last Date Unsubscribed","Naposledy odhlášen",module,Magento_Customer
 "No Newsletter Found","Žádný zpravodaj nebyl nalezen",module,Magento_Customer
-"Start date","Datum zahájení",module,Magento_Customer
+"Start date",Začátek,module,Magento_Customer
 "End Date","Datum ukončení",module,Magento_Customer
 "Receive Date","Datum přijetí",module,Magento_Customer
 Subject,Předmět,module,Magento_Customer
@@ -1398,7 +1396,7 @@ State/Province,"Kraj / region",module,Magento_Directory
 "--Please Select--","-- Zvolte údaj --",module,Magento_Directory
 "Please correct the target currency.","Opravte prosím cílovou měnu.",module,Magento_Directory
 "Undefined rate from ""%1-%2"".","Nedefinovaný kurz z ""%1-%2"".",module,Magento_Directory
-label,označení,module,Magento_Directory
+label,štítek,module,Magento_Directory
 "FATAL ERROR:","ZÁVAŽNÁ CHYBA:",module,Magento_Directory
 "Please specify the correct Import Service.","Určete správnou službu pro import.",module,Magento_Directory
 WARNING:,VAROVÁNÍ:,module,Magento_Directory
@@ -1480,7 +1478,7 @@ Refunded,Vráceno,module,Magento_Downloadable
 Required,Povinný,module,Magento_Eav
 Yes,Ano,module,Magento_Eav
 No,Ne,module,Magento_Eav
-System,Systémový,module,Magento_Eav
+System,Systém,module,Magento_Eav
 None,Žádné,module,Magento_Eav
 "Decimal Number","Desetinné číslo",module,Magento_Eav
 "Integer Number","Celé číslo",module,Magento_Eav
@@ -1707,7 +1705,7 @@ Status,Stav,module,Magento_ImportExport
 "Cannot get autoincrement value","Auto-inkrementální hodnotu nelze získat",module,Magento_ImportExport
 "Error in data structure: %1 values are mixed","Chyba ve struktuře dat: hodnoty %1 jsou smíšené",module,Magento_ImportExport
 "-- Please Select --","-- Zvolte prosím --",module,Magento_ImportExport
-label,označení,module,Magento_ImportExport
+label,štítek,module,Magento_ImportExport
 Add/Update,"Přidat / Upravit",module,Magento_ImportExport
 "Add/Update Complex Data","Přidat / Upravit komplexní údaje",module,Magento_ImportExport
 "Delete Entities","Odstranit entity",module,Magento_ImportExport
@@ -1847,8 +1845,8 @@ Total,Celkem,module,Magento_Multishipping
 Product,Produkt,module,Magento_Multishipping
 Qty,Množství,module,Magento_Multishipping
 "Send To","Odeslat na",module,Magento_Multishipping
-"Remove Item","Odstranit položku",module,Magento_Multishipping
-"Remove item","Odstranit položku",module,Magento_Multishipping
+"Remove Item","Odebrat položku",module,Magento_Multishipping
+"Remove item","Odebrat položku",module,Magento_Multishipping
 "Update Qty &amp; Addresses","Upravit množství &amp; adresy",module,Magento_Multishipping
 "Enter a New Address","Zadejte novou adresu",module,Magento_Multishipping
 "Back to Shopping Cart","Zpět na nákupní košík",module,Magento_Multishipping
@@ -2179,7 +2177,7 @@ Dispute,Spor,module,Magento_Paypal
 "PayPal Reference ID Type","Typ referenčního PayPal ID",module,Magento_Paypal
 "Event Code","Kód události",module,Magento_Paypal
 Event,Událost,module,Magento_Paypal
-"Start Date","Datum zahájení",module,Magento_Paypal
+"Start Date",Začátek,module,Magento_Paypal
 "Finish Date","Datum dokončení",module,Magento_Paypal
 "Debit or Credit","Debetní nebo kreditní",module,Magento_Paypal
 "Gross Amount","Hrubá částka",module,Magento_Paypal
@@ -2752,7 +2750,7 @@ Message,Zpráva,module,Magento_Sales
 "%1 for %2","%1 za %2",module,Magento_Sales
 "* - Enter custom price including tax","* - Zadejte vlastní cenu s DPH",module,Magento_Sales
 "* - Enter custom price excluding tax","* - Zadejte vlastní cenu bez DPH",module,Magento_Sales
-Configure,Konfigurovat,module,Magento_Sales
+Configure,Nastavit,module,Magento_Sales
 "This product does not have any configurable options","Tento produkt nemá žádné konfigurovatelné parametry",module,Magento_Sales
 "Newsletter Subscription","Odběr zpravodaje",module,Magento_Sales
 "Add Selected Product(s) to Order","Přidat zvolené produkty k objednávce",module,Magento_Sales
@@ -3366,7 +3364,6 @@ All,Vše,module,Magento_Sitemap
 "Name is required","Název je povinný",module,Magento_Store
 "All Store Views","Všechna zobrazení obchodu",module,Magento_Store
 "-- Please Select --","-- Zvolte prosím --",module,Magento_Store
-Admin,Správce,module,Magento_Store
 "Your Language:","Váš jazyk:",module,Magento_Store
 "Your Language","Váš jazyk",module,Magento_Store
 Language,Jazyk,module,Magento_Store
@@ -3522,7 +3519,7 @@ Theme,Téma,module,Magento_Theme
 "You saved the theme.","Téma bylo uloženo.",module,Magento_Theme
 "We cannot find a theme with id ""%1"".","Téma s ID ""%1"" nelze najít.",module,Magento_Theme
 "Invalid regular expression: ""%1"".","Neplatný regulární výraz: ""%1"".",module,Magento_Theme
-label,označení,module,Magento_Theme
+label,štítek,module,Magento_Theme
 "-- Please Select --","-- Zvolte prosím --",module,Magento_Theme
 Copy,Kopírovat,module,Magento_Theme
 "Circular-reference in theme inheritance detected for ""%1""","V tématu byla zjištěna dědičnost pro ""%1""",module,Magento_Theme
@@ -3573,7 +3570,7 @@ error_message,chybova_zprava,module,Magento_Ups
 "Adult Signature Required","Povinný podpis dospělého",module,Magento_Ups
 "Not Required",Nepovinné,module,Magento_Ups
 None,Žádné,module,Magento_Ups
-label,označení,module,Magento_Ups
+label,štítek,module,Magento_Ups
 "Edit URL Rewrite for a Category","Upravit přepis URL kategorie",module,Magento_UrlRewrite
 "Add URL Rewrite for a Category","Přidat přepis URL kategorie",module,Magento_UrlRewrite
 Category:,Kategorie:,module,Magento_UrlRewrite
@@ -3756,7 +3753,7 @@ Tax,DPH,module,Magento_Weee
 Action,Činnost,module,Magento_Weee
 "Widget Insertion","Vložení widgetu",module,Magento_Widget
 "Insert Widget","Vložit widget",module,Magento_Widget
-label,označení,module,Magento_Widget
+label,štítek,module,Magento_Widget
 Choose...,Zvolit...,module,Magento_Widget
 Close,Zavřít,module,Magento_Widget
 "Not Selected",Nezvoleno,module,Magento_Widget
@@ -3834,8 +3831,8 @@ Availability,Dostupnost,module,Magento_Wishlist
 "In stock",Skladem,module,Magento_Wishlist
 "Out of stock","Není skladem",module,Magento_Wishlist
 Edit,Upravit,module,Magento_Wishlist
-"Remove Item","Odstranit položku",module,Magento_Wishlist
-"Remove item","Odstranit položku",module,Magento_Wishlist
+"Remove Item","Odebrat položku",module,Magento_Wishlist
+"Remove item","Odebrat položku",module,Magento_Wishlist
 "Add to Compare",Porovnat,module,Magento_Wishlist
 "This Wish List has no Items","Seznam oblíbených neobsahuje žádné položky",module,Magento_Wishlist
 "Options Details","Podrobnosti možnosti",module,Magento_Wishlist
@@ -3936,9 +3933,9 @@ Debug,"Ladící režim",module,Magento_Backend
 "Minify Html","Komprimovat HTML",module,Magento_Backend
 "Translate Inline","Přímý překlad",module,Magento_Backend
 "Enabled for Storefront","Zapnuto v obchodu",module,Magento_Backend
-"Enabled for Admin","Zapnuto ve správě",module,Magento_Backend
+"Enabled for Admin","Povoleno v adminu",module,Magento_Backend
 "Translate, blocks and other output caches should be disabled for both Storefront and Admin inline translations.","Pro přímý překlad obchodu i správy by měly být vypnuty mezipaměti překladů, bloků a ostatních výstupů.",module,Magento_Backend
-"JavaScript Settings","Nastavení Javaskriptu",module,Magento_Backend
+"JavaScript Settings","Nastavení JavaScriptu",module,Magento_Backend
 "Merge JavaScript Files","Sloučit JS soubory",module,Magento_Backend
 "Enable Javascript Bundling","Zapnout svazkování javascriptu",module,Magento_Backend
 "Minify JavaScript Files","Komprimovat JS soubory",module,Magento_Backend
@@ -3977,7 +3974,6 @@ City,Město,module,Magento_Backend
 Host,Hostitel,module,Magento_Backend
 "Set Return-Path","Nastavit e-mail pro odpověď",module,Magento_Backend
 "Return-Path Email","E-mail pro odpověď",module,Magento_Backend
-Admin,Správce,module,Magento_Backend
 "Admin User Emails","Nastavení e-mailů správce",module,Magento_Backend
 "Forgot Password Email Template","Šablona e-mailu obnovy hesla",module,Magento_Backend
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Je-li zvolena volba ""Výchozí"", e-mailová šablona je postavena na výchozím tématu.",module,Magento_Backend
@@ -3985,7 +3981,7 @@ Admin,Správce,module,Magento_Backend
 "Recovery Link Expiration Period (days)","Platnost odkazu pro obnovu (dny)",module,Magento_Backend
 "Please enter a number 1 or greater in this field.","Do tohoto údaje zadejte číslo 1 nebo větší.",module,Magento_Backend
 "Startup Page","Po spuštění stránky",module,Magento_Backend
-"Admin Base URL","Základní URL správy",module,Magento_Backend
+"Admin Base URL","Základní URL adminu",module,Magento_Backend
 "Use Custom Admin URL","Použít vlastní URL správy",module,Magento_Backend
 "Custom Admin URL","Vlastní URL správy",module,Magento_Backend
 "Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","Ujistěte se, že základní URL končí lomítkem, např. http://www.domena.cz/obchod/",module,Magento_Backend
@@ -4224,7 +4220,7 @@ Details,Podrobnosti,module,Magento_Catalog
 "Show Breadcrumbs for CMS Pages","Zobrazit odkazy úrovní CMS stránek",module,Magento_Cms
 "Browser Capabilities Detection","Detekce schopností prohlížeče",module,Magento_Cms
 "Redirect to CMS-page if Cookies are Disabled","Při vypnutých cookies přesměrovat na CMS stránku",module,Magento_Cms
-"Show Notice if JavaScript is Disabled","Při vypnutém javaskriptu zobrazit upozornění",module,Magento_Cms
+"Show Notice if JavaScript is Disabled","Zobrazit upozornění při vypnutém JavaScriptu",module,Magento_Cms
 "Show Notice if Local Storage is Disabled","Zobrazit upozornění, pokud je místní úložiště vypnuto",module,Magento_Cms
 "Content Management","Správa obsahu",module,Magento_Cms
 "WYSIWYG Options","Nastavení editoru",module,Magento_Cms
@@ -5022,7 +5018,7 @@ Quantity,Množství,module,Magento_Wishlist
 "Add Date","Přidat datum",module,Magento_Wishlist
 "Days in Wish List","Dnů v oblíbených",module,Magento_Wishlist
 Action,Činnost,module,Magento_Wishlist
-Configure,Upravit,module,Magento_Wishlist
+Configure,Nastavit,module,Magento_Wishlist
 Delete,Odstranit,module,Magento_Wishlist
 "Product Details and Comment","Údaje produktu a komentář",module,Magento_Wishlist
 Summary,Souhrn,theme,frontend/Magento/blank
