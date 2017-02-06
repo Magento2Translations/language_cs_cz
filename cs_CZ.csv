@@ -83,7 +83,7 @@ Quantity,Množství,module,Magento_Backend
 Views,Zobrazení,module,Magento_Backend
 Revenue,Tržba,module,Magento_Backend
 Tax,DPH,module,Magento_Backend
-Shipping,Přeprava,module,Magento_Backend
+Shipping,Doprava,module,Magento_Backend
 "Images (.gif, .jpg, .png)","Obrázky (.gif, .jpg, .png)",module,Magento_Backend
 "Media (.avi, .flv, .swf)","Média (.avi, .flv, .swf)",module,Magento_Backend
 "All Files","Všechny soubory",module,Magento_Backend
@@ -419,7 +419,7 @@ None,Žádný,module,Magento_Bundle
 Separately,Odděleně,module,Magento_Bundle
 Together,Společně,module,Magento_Bundle
 "Option Title","Název možnosti",module,Magento_Bundle
-"Store View Title","Titulek zobrazení obchodu",module,Magento_Bundle
+"Store View Title","Název pohledu obchodu",module,Magento_Bundle
 "Input Type","Vstupní typ",module,Magento_Bundle
 Required,Povinný,module,Magento_Bundle
 Position,Umístění,module,Magento_Bundle
@@ -765,9 +765,9 @@ All,Vše,module,Magento_Catalog
 "Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Výchozí řazení seznamu produktů není v dostupných způsobech řazení.",module,Magento_Catalog
 "No layout updates","Žádné úpravy rozvržení",module,Magento_Catalog
 "Products only","Pouze produkty",module,Magento_Catalog
-"Static block only","Pouze CMS blok",module,Magento_Catalog
-"Static block and products","CMS blok a produkty",module,Magento_Catalog
-"Please select a static block.","Zvolte CMS blok prosím.",module,Magento_Catalog
+"Static block only","Pouze statický blok",module,Magento_Catalog
+"Static block and products","Statický blok a produkty",module,Magento_Catalog
+"Please select a static block.","Vyberte statický blok.",module,Magento_Catalog
 frontend_label,oznaceni_obchodu,module,Magento_Catalog
 "-- Please Select a Category --","-- Zvolte kategorii prosím --",module,Magento_Catalog
 "Grid Only","Pouze mřížka",module,Magento_Catalog
@@ -779,7 +779,7 @@ frontend_label,oznaceni_obchodu,module,Magento_Catalog
 Manual,Ručně,module,Magento_Catalog
 Fixed,Pevné,module,Magento_Catalog
 Percent,Procenta,module,Magento_Catalog
-"-- Please select --","-- Zvolte prosím --",module,Magento_Catalog
+"-- Please select --","-- Vyberte --",module,Magento_Catalog
 "Product Thumbnail Itself","Malý obrázek přiřazeného produktu",module,Magento_Catalog
 "Parent Product Thumbnail","Malý obrázek nadřazeného produktu",module,Magento_Catalog
 "12h AM/PM","12h dop./odp.",module,Magento_Catalog
@@ -881,7 +881,7 @@ Required,Povinný,module,Magento_Catalog
 "Price Type","Typ ceny",module,Magento_Catalog
 "Maximum Image Size","Maximální velikost obrázku",module,Magento_Catalog
 "Please leave blank if it is not an image.","Pokud to není obrázek, nechte prázdné.",module,Magento_Catalog
-Title,Titulek,module,Magento_Catalog
+Title,Název,module,Magento_Catalog
 "Sort Custom Option","Pořadí vlastních voleb",module,Magento_Catalog
 "Max Characters","Maximálně znaků",module,Magento_Catalog
 "Customer Group","Skupina zákazníků",module,Magento_Catalog
@@ -892,7 +892,6 @@ Action,Činnost,module,Magento_Catalog
 "Product In Websites","Produkt na webech",module,Magento_Catalog
 "(Copy data from: %1)","(Kopírovat údaje z: %1)",module,Magento_Catalog
 "Alt Text","Alternativní text",module,Magento_Catalog
-Role,Funkce,module,Magento_Catalog
 "Hide from Product Page","Skrýt na stránce produktu",module,Magento_Catalog
 "Close panel","Zavřít panel",module,Magento_Catalog
 "Product Alerts","Hlídání produktu",module,Magento_Catalog
@@ -1021,14 +1020,14 @@ Loading...,Nahrávám...,module,Magento_Checkout
 "New Block","Nový blok",module,Magento_Cms
 "Block Information","Informace o bloku",module,Magento_Cms
 "General Information","Základní údaje",module,Magento_Cms
-"Block Title","Titulek bloku",module,Magento_Cms
+"Block Title","Název bloku",module,Magento_Cms
 Identifier,Identifikátor,module,Magento_Cms
 "Store View","Zobrazení obchodu",module,Magento_Cms
 Status,Stav,module,Magento_Cms
 Enabled,Zapnuto,module,Magento_Cms
 Disabled,Vypnuto,module,Magento_Cms
 Content,Obsah,module,Magento_Cms
-Title,Titulek,module,Magento_Cms
+Title,Název,module,Magento_Cms
 "Manage Pages","Správa stránek",module,Magento_Cms
 "Add New Page","Přidat novou stránku",module,Magento_Cms
 "Save Page","Uložit stránku",module,Magento_Cms
@@ -1048,7 +1047,7 @@ Layout,Rozložení,module,Magento_Cms
 "Custom Layout Update XML","XML pro aktualizaci vlastního rozložení",module,Magento_Cms
 Design,Vzhled,module,Magento_Cms
 "Page Information","Údaje stránky",module,Magento_Cms
-"Page Title","Titulek stránky",module,Magento_Cms
+"Page Title","Název stránky",module,Magento_Cms
 "URL Key","URL klíč",module,Magento_Cms
 "Relative to Web Site Base URL","Relativní k základní URL adresu webu",module,Magento_Cms
 "Page Status","Stav stránky",module,Magento_Cms
@@ -1082,7 +1081,7 @@ Blocks,Bloky,module,Magento_Cms
 Pages,Stránky,module,Magento_Cms
 "Something went wrong while saving the page.","Při ukládání stránky nastala chyba.",module,Magento_Cms
 "The directory %1 is not writable by server.","Adresář %1 není zapisovatelný.",module,Magento_Cms
-"Make sure that static block content does not reference the block itself.","Ujistěte se, že obsah bloku neobsahuje odkaz na samotný blok.",module,Magento_Cms
+"Make sure that static block content does not reference the block itself.","Ujistěte se, že statický blok nedokazuje sám na sebe.",module,Magento_Cms
 "Enabled by Default","Ve výchozím stavu zapnuto",module,Magento_Cms
 "Disabled by Default","Ve výchozím stavu Vypnuto",module,Magento_Cms
 "Disabled Completely","Vypnuto úplně",module,Magento_Cms
@@ -1126,7 +1125,7 @@ Submit,Odeslat,module,Magento_Contact
 Daily,Denně,module,Magento_Cron
 Weekly,Týdně,module,Magento_Cron
 Monthly,Měsíčně,module,Magento_Cron
-"Save Currency Rates","Uložit kurzy měn",module,Magento_CurrencySymbol
+"Save Currency Rates","Uložit měnové kurzy",module,Magento_CurrencySymbol
 Reset,Obnovit,module,Magento_CurrencySymbol
 "Manage Currency Rates","Nastavení měnových kurzů",module,Magento_CurrencySymbol
 "Import Service","Importovaná služba",module,Magento_CurrencySymbol
@@ -1134,7 +1133,7 @@ Reset,Obnovit,module,Magento_CurrencySymbol
 "Currency Symbols","Symboly měny",module,Magento_CurrencySymbol
 "Use Standard","Použít standardní",module,Magento_CurrencySymbol
 "Please specify a correct Import Service.","Určete správnou importovanou službu.",module,Magento_CurrencySymbol
-"Currency Rates","Kurzy měn",module,Magento_CurrencySymbol
+"Currency Rates","Měnové kurzy",module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","Opravte prosím vstupní údaje kurzu %1 => %2",module,Magento_CurrencySymbol
 "All valid rates have been saved.","Všechny platné kurzy byly uloženy",module,Magento_CurrencySymbol
 System,Systém,module,Magento_CurrencySymbol
@@ -1155,7 +1154,7 @@ System,Systém,module,Magento_CurrencySymbol
 "New Customer","Nový zákazník",module,Magento_Customer
 "Save and Continue Edit",Použít,module,Magento_Customer
 Back,Zpět,module,Magento_Customer
-"Please select","Zvolte prosím",module,Magento_Customer
+"Please select",Vyberte,module,Magento_Customer
 Product,Produkt,module,Magento_Customer
 Quantity,Množství,module,Magento_Customer
 Price,Cena,module,Magento_Customer
@@ -1315,15 +1314,15 @@ Store,Obchod,module,Magento_Customer
 "All Store Views","Všechna zobrazení obchodu",module,Magento_Customer
 Change,Změnit,module,Magento_Customer
 "Manage Addresses","Správa adres",module,Magento_Customer
-"Default Shipping Address","Výchozí dodací adresa",module,Magento_Customer
+"Default Shipping Address","Výchozí doručovací adresa",module,Magento_Customer
 "Contact Information","Kontaktní informace",module,Magento_Customer
 "Change Password","Změnit heslo",module,Magento_Customer
 Newsletters,Novinky,module,Magento_Customer
 "Default Addresses","Výchozí adresy",module,Magento_Customer
 "Change Billing Address","Změnit fakturační adresu",module,Magento_Customer
 "You have no default billing address in your address book.","V adresáři nemáte žádnou výchozí fakturační adresu.",module,Magento_Customer
-"Change Shipping Address","Změnit dodací adresu",module,Magento_Customer
-"You have no default shipping address in your address book.","V adresáři nemáte žádnou výchozí doručovací adresu.",module,Magento_Customer
+"Change Shipping Address","Změnit doručovací adresu",module,Magento_Customer
+"You have no default shipping address in your address book.","V adresáři nemáte nastavenu výchozí doručovací adresu.",module,Magento_Customer
 "Additional Address Entries","Další adresy",module,Magento_Customer
 "Delete Address","Odstranit adresu",module,Magento_Customer
 "* Required Fields","* Povinná pole",module,Magento_Customer
@@ -1337,7 +1336,7 @@ State/Province,"Kraj / region",module,Magento_Customer
 "Zip/Postal Code",PSČ,module,Magento_Customer
 Country,Země,module,Magento_Customer
 "Use as my default billing address","Použít jako výchozí fakturační adresu",module,Magento_Customer
-"Use as my default shipping address","Použít jako výchozí dodací adresu",module,Magento_Customer
+"Use as my default shipping address","Použít jako výchozí doručovací adresu",module,Magento_Customer
 "Save Address","Uložit adresu",module,Magento_Customer
 "Go back","Jít zpět",module,Magento_Customer
 Email,E-mail,module,Magento_Customer
@@ -1393,7 +1392,7 @@ Documents,Dokumenty,module,Magento_Dhl
 "Non documents","Žádné dokumenty",module,Magento_Dhl
 None,Nic,module,Magento_Dhl
 State/Province,"Kraj / region",module,Magento_Directory
-"--Please Select--","-- Zvolte údaj --",module,Magento_Directory
+"--Please Select--",--Vyberte--,module,Magento_Directory
 "Please correct the target currency.","Opravte prosím cílovou měnu.",module,Magento_Directory
 "Undefined rate from ""%1-%2"".","Nedefinovaný kurz z ""%1-%2"".",module,Magento_Directory
 label,štítek,module,Magento_Directory
@@ -1813,7 +1812,7 @@ Previous,Předchozí,module,Magento_LayeredNavigation
 "Review Order - %1","Souhrn objednávky - %1",module,Magento_Multishipping
 Total,Celkem,module,Magento_Multishipping
 "Total for this address","Celkem na tuto adresu",module,Magento_Multishipping
-"Shipping Methods","Způsoby přepravy",module,Magento_Multishipping
+"Shipping Methods","Způsoby dopravy",module,Magento_Multishipping
 "Edit Address","Upravit adresu",module,Magento_Multishipping
 "Edit Billing Address","Upravit fakturační adresu",module,Magento_Multishipping
 "Edit Shipping Address","Upravit doručovací adresu",module,Magento_Multishipping
@@ -1969,7 +1968,7 @@ Subscribe,"Přihlásit odběr",module,Magento_Newsletter
 Country,Země,module,Magento_OfflineShipping
 Region/State,"Kraj / region",module,Magento_OfflineShipping
 "Zip/Postal Code","PSČ/kód pošty",module,Magento_OfflineShipping
-"Shipping Price","Cena přepravy",module,Magento_OfflineShipping
+"Shipping Price","Ceny dopravy",module,Magento_OfflineShipping
 "Store Pickup","Osobní odběr",module,Magento_OfflineShipping
 "Weight vs. Destination","Hmotnost vs. Místo doručení",module,Magento_OfflineShipping
 "Price vs. Destination","Cena vs. Místo doručení",module,Magento_OfflineShipping
@@ -2187,6 +2186,7 @@ Custom,Vlastní,module,Magento_Paypal
 "Order ID","ID objednávky",module,Magento_Paypal
 "Preapproved Payment ID","ID předschválené platby",module,Magento_Paypal
 "Available Balance","Disponibilní zůstatek",module,Magento_Paypal
+"Coupon Redemption","Uplatnění kupónu",module,Magento_Paypal
 "Hold for Dispute Investigation","Blokovat pro vyšetřování sporu",module,Magento_Paypal
 Incentive,Pobídka,module,Magento_Paypal
 "Mass Pay Payment","Hromadná úhrada plateb",module,Magento_Paypal
@@ -2219,7 +2219,7 @@ Daily,Denně,module,Magento_Paypal
 "Every 40 days","Každých 40 dní",module,Magento_Paypal
 "No Logo","Žádné logo",module,Magento_Paypal
 "Created billing agreement #%1.","Vytvořeny platební podmínky č. %1.",module,Magento_Paypal
-"Please Select","Vyberte prosím",module,Magento_Paypal
+"Please Select",Vyberte,module,Magento_Paypal
 Customer,Zákazník,module,Magento_Paypal
 "Created At",Vytvořeno,module,Magento_Paypal
 "Updated At",Aktualizováno,module,Magento_Paypal
@@ -2240,7 +2240,7 @@ View,Zobrazit,module,Magento_Paypal
 "There are no billing agreements yet.","Žádné platební podmínky nebyly nalezeny.",module,Magento_Paypal
 "New Billing Agreement","Nové platební podmínky",module,Magento_Paypal
 "You will be redirected to the payment system website.","Dojde k přesměrování na stránky platebního systému.",module,Magento_Paypal
-"-- Please Select --","– Vyberte –",module,Magento_Paypal
+"-- Please Select --","-- Vyberte --",module,Magento_Paypal
 Create...,Vytvořit...,module,Magento_Paypal
 "Shipping Method","Způsob dopravy",module,Magento_Paypal
 "Please select a shipping method...","Zvolte způsob přepravy prosím...",module,Magento_Paypal
@@ -2345,7 +2345,7 @@ Views,Zobrazeno,module,Magento_Reports
 "Customers Reviews","Recenze zákazníků",module,Magento_Reports
 "Reviews for %1","Recenze %1",module,Magento_Reports
 Customer,Zákazník,module,Magento_Reports
-Title,Titulek,module,Magento_Reports
+Title,Název,module,Magento_Reports
 Created,Vytvořeno,module,Magento_Reports
 "Products Reviews","Recenze produktů",module,Magento_Reports
 "Products Bestsellers Report","Přehled nejprodávanějších produktů",module,Magento_Reports
@@ -2504,7 +2504,7 @@ Websites,Weby,module,Magento_Review
 "Delete Rating","Odstranit hodnocení",module,Magento_Review
 "Edit Rating #%1","Upravit hodnocení č. %1",module,Magento_Review
 "New Rating","Nové hodnocení",module,Magento_Review
-"Rating Title","Titulek hodnocení",module,Magento_Review
+"Rating Title","Název hodnocení",module,Magento_Review
 "Default Value","Výchozí hodnota",module,Magento_Review
 "Rating Visibility","Viditelnost hodnocení",module,Magento_Review
 "Is Active","Je aktivní",module,Magento_Review
@@ -2533,7 +2533,7 @@ Pending,Nevyřízená,module,Magento_Review
 "Not Approved",Zamítnuto,module,Magento_Review
 "Rating isn't Available","Hodnocení není dostupné",module,Magento_Review
 "Assigned Options","Přiřazené možnosti",module,Magento_Review
-"Option Title:","Titulek volby:",module,Magento_Review
+"Option Title:","Název možnosti:",module,Magento_Review
 "Product Name","Název produktu",module,Magento_Review
 Rating,Hodnocení,module,Magento_Review
 "You have submitted no reviews.","Zatím jste neodeslal(a) žádnou recenzi.",module,Magento_Review
@@ -3003,7 +3003,7 @@ Authorization,Autorizace,module,Magento_Sales
 "Payment Method:","Způsob platby:",module,Magento_Sales
 "Shipping Method:","Způsob přepravy:",module,Magento_Sales
 "Total Shipping Charges","Přepravné celkem",module,Magento_Sales
-Title,Titulek,module,Magento_Sales
+Title,Název,module,Magento_Sales
 Number,Číslo,module,Magento_Sales
 "We found an invalid renderer model.","Byl nalezen neplatný model rendereru.",module,Magento_Sales
 "Please define the PDF object before using.","Před použitím definujte PDF objekt.",module,Magento_Sales
@@ -3018,7 +3018,7 @@ Qty,Množství,module,Magento_Sales
 "A PDF page object is not specified.","Objekt PDF stránky není zadán.",module,Magento_Sales
 "Excl. Tax","bez DPH",module,Magento_Sales
 "Incl. Tax","s DPH",module,Magento_Sales
-title,titulek,module,Magento_Sales
+title,název,module,Magento_Sales
 "We cannot register an existing shipment","Nelze zaregistrovat existující zásilku",module,Magento_Sales
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","Model celkem by měl být rozšiřovat \Magento\Sales\Model\Order\Total\AbstractTotal.",module,Magento_Sales
 "We cannot determine the field name.","Nelze určit název údaje.",module,Magento_Sales
@@ -3363,7 +3363,7 @@ All,Vše,module,Magento_Sitemap
 "Website with the same code","Web se stejným kódem",module,Magento_Store
 "Name is required","Název je povinný",module,Magento_Store
 "All Store Views","Všechna zobrazení obchodu",module,Magento_Store
-"-- Please Select --","-- Zvolte prosím --",module,Magento_Store
+"-- Please Select --","-- Vyberte --",module,Magento_Store
 "Your Language:","Váš jazyk:",module,Magento_Store
 "Your Language","Váš jazyk",module,Magento_Store
 Language,Jazyk,module,Magento_Store
@@ -3583,7 +3583,7 @@ Status,Stav,module,Magento_UrlRewrite
 "Edit URL Rewrite for CMS page","Upravit přepis URL CMS stránky",module,Magento_UrlRewrite
 "Add URL Rewrite for CMS page","Přidat přepis URL CMS stránky",module,Magento_UrlRewrite
 "CMS page:","CMS stránka:",module,Magento_UrlRewrite
-Title,Titulek,module,Magento_UrlRewrite
+Title,Název,module,Magento_UrlRewrite
 "URL Key","URL klíč",module,Magento_UrlRewrite
 "Store View","Zobrazení obchodu",module,Magento_UrlRewrite
 "Edit URL Rewrite","Upravit přepis URL",module,Magento_UrlRewrite
@@ -3616,13 +3616,13 @@ No,Ne,module,Magento_UrlRewrite
 "Select Category","Zvolte kategorii",module,Magento_UrlRewrite
 Back,Zpět,module,Magento_User
 Reset,Obnovit,module,Magento_User
-"Delete Role","Odstranit funkci",module,Magento_User
+"Delete Role","Odstranit roli",module,Magento_User
 "Are you sure you want to do this?","Skutečně chcete provést tuto akci?",module,Magento_User
-"Save Role","Uložit funkci",module,Magento_User
-Roles,Funkce,module,Magento_User
-"Add New Role","Přidat novou funkci",module,Magento_User
-"Role Information","Údaje funkce",module,Magento_User
-"Role Users","Funkce uživatelů",module,Magento_User
+"Save Role","Uložit roli",module,Magento_User
+Roles,Role,module,Magento_User
+"Add New Role","Přidat novou roli",module,Magento_User
+"Role Information","Informace o roli",module,Magento_User
+"Role Users","Uživatelé role",module,Magento_User
 "User ID","ID uživatele",module,Magento_User
 "User Name","Uživatelské jméno",module,Magento_User
 "First Name","Křestní jméno",module,Magento_User
@@ -3631,9 +3631,9 @@ Email,E-mail,module,Magento_User
 Status,Stav,module,Magento_User
 Active,Aktivní,module,Magento_User
 Inactive,Neaktivní,module,Magento_User
-"Role Resources","Zdroje funkce",module,Magento_User
-"Role Info","Údaje funkce",module,Magento_User
-"Role Name","Název funkce",module,Magento_User
+"Role Resources","Zdroje role",module,Magento_User
+"Role Info","Informace o roli",module,Magento_User
+"Role Name","Název role",module,Magento_User
 "Add New User","Přidat nového uživatele",module,Magento_User
 Users,Uživatelé,module,Magento_User
 "Save User","Uložit uživatele",module,Magento_User
@@ -3649,12 +3649,11 @@ Password,Heslo,module,Magento_User
 "This account is","Tento účet ke",module,Magento_User
 "Account Status","Stav účtu",module,Magento_User
 "Your Password","Vaše heslo",module,Magento_User
-"User Roles Information","Údaje uživatelských funkcí",module,Magento_User
+"User Roles Information","Informace o uživatelských rolích",module,Magento_User
 Assigned,Přiřazeno,module,Magento_User
-Role,Funkce,module,Magento_User
 "User Information","Údaje uživatele",module,Magento_User
 "User Info","Údaje uživatele",module,Magento_User
-"User Role","Funkce uživatele",module,Magento_User
+"User Role","Uživatelská role",module,Magento_User
 "Please correct the password reset token.","Opravte token pro obnovu hesla prosím.",module,Magento_User
 "Please specify the correct account and try again.","Zadejte správný účet prosím a zkuste to znovu.",module,Magento_User
 "Your password reset link has expired.","Platnost odkazu pro obnovu hesla vypršela.",module,Magento_User
@@ -3667,14 +3666,14 @@ Permissions,Oprávnění,module,Magento_User
 "You deleted the user.","Uživatel byl odstraněn.",module,Magento_User
 "This user no longer exists.","Tento uživatel již neexistuje.",module,Magento_User
 "Edit User","Upravit uživatele",module,Magento_User
-"You cannot delete self-assigned roles.","Vlastní funkci nelze odstranit.",module,Magento_User
-"You deleted the role.","Funkce byla odstraněna.",module,Magento_User
-"An error occurred while deleting this role.","Při odstraňování funkce nastala chyba.",module,Magento_User
-"Edit Role","Upravit funkci",module,Magento_User
-"New Role","Nová funkce",module,Magento_User
-"This role no longer exists.","Tato funkce již neexistuje.",module,Magento_User
-"You saved the role.","Funkce byla uložena.",module,Magento_User
-"An error occurred while saving this role.","Při ukládání této funkce nastala chyba.",module,Magento_User
+"You cannot delete self-assigned roles.","Vlastní roli nelze odstranit.",module,Magento_User
+"You deleted the role.","Role byla odstraněna.",module,Magento_User
+"An error occurred while deleting this role.","Při odstraňování role nastala chyba.",module,Magento_User
+"Edit Role","Upravit roli",module,Magento_User
+"New Role","Nová role",module,Magento_User
+"This role no longer exists.","Tato role již neexistuje.",module,Magento_User
+"You saved the role.","Role byla uložena.",module,Magento_User
+"An error occurred while saving this role.","Při ukládání této role nastala chyba.",module,Magento_User
 "You saved the user.","Uživatel byl uložen.",module,Magento_User
 "A user with the same user name or email already exists.","Uživatel s tímto uživatelským jménem nebo e-mailem již existuje.",module,Magento_User
 Recommended,Doporučeno,module,Magento_User
@@ -3695,13 +3694,13 @@ Forced,Vynuceno,module,Magento_User
 "Reset a Password","Obnovit heslo",module,Magento_User
 "Confirm New Password","Potvrdit nové heslo",module,Magento_User
 "Reset Password","Obnovit heslo",module,Magento_User
-"Roles Resources","Zdroje funkce",module,Magento_User
+"Roles Resources","Zdroje role",module,Magento_User
 "Resource Access","Zdroj přístupu",module,Magento_User
 Custom,Vlastní,module,Magento_User
 All,Vše,module,Magento_User
 Resources,Zdroje,module,Magento_User
-"Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","Upozornění!\r\nTímto uživateli odeberete již přiřazenou funkci\r\nSkutečně chcete provést tuto akci?",module,Magento_User
-"Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","Upozornění!\r\nTímto uživatelům odeberete již přiřazenou funkci\r\nSkutečně chcete provést tuto akci?",module,Magento_User
+"Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","Upozornění!\r\nTímto uživateli odeberete již přiřazenou roli\r\nSkutečně chcete provést tuto akci?",module,Magento_User
+"Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","Upozornění!\r\nTímto uživatelům odeberete již přiřazené role\r\nSkutečně chcete provést tuto akci?",module,Magento_User
 Letter,Dopis,module,Magento_Usps
 Flat,Plochý,module,Magento_Usps
 Parcel,Balík,module,Magento_Usps
@@ -3758,7 +3757,7 @@ Choose...,Zvolit...,module,Magento_Widget
 Close,Zavřít,module,Magento_Widget
 "Not Selected",Nezvoleno,module,Magento_Widget
 "Widget Type","Typ widgetu",module,Magento_Widget
-"-- Please Select --","-- Zvolte prosím --",module,Magento_Widget
+"-- Please Select --","-- Vyberte --",module,Magento_Widget
 "Manage Widget Instances","Správa instancí widgetů",module,Magento_Widget
 "Save and Continue Edit",Použít,module,Magento_Widget
 "New Widget Instance","Nová instance widgetu",module,Magento_Widget
@@ -3858,7 +3857,7 @@ Cancel,Zrušit,module,Magento_Catalog
 "Please add rows to option.","Přidejte řádky volby.",module,Magento_Catalog
 "New Option","Nová možnost",module,Magento_Catalog
 "Select Product","Zvolte produkt",module,Magento_Catalog
-"Please select items.","Zvolte položky prosím.",module,Magento_Catalog
+"Please select items.","Vyberte položky.",module,Magento_Catalog
 "Choose existing category.","Zvolte existující kategorii.",module,Magento_Catalog
 "Create Category","Vytvořit kategorii",module,Magento_Catalog
 "unselect all","zrušit výběr",module,Magento_Catalog
@@ -4047,7 +4046,7 @@ Action,Činnost,module,Magento_Backup
 Rollback,Obnova,module,Magento_Backup
 "Enable this Solution","Zapnout toto řešení",module,Magento_Braintree
 "Enable PayPal through Braintree","Zapnout PayPal prostřednictvím Braintree",module,Magento_Braintree
-Title,Titulek,module,Magento_Braintree
+Title,Název,module,Magento_Braintree
 Environment,Prostředí,module,Magento_Braintree
 "Merchant Account ID","ID účtu obchodníka",module,Magento_Braintree
 "Merchant ID","ID obchodníka",module,Magento_Braintree
@@ -4065,8 +4064,8 @@ Debug,"Ladící režim",module,Magento_Braintree
 "Payment from Applicable Countries","Platby z dostupných zemí",module,Magento_Braintree
 "Payment from Specific Countries","Platby ze zvolených zemí",module,Magento_Braintree
 "Country Specific Credit Card Types","Typy platebních karet konkrétních zemí",module,Magento_Braintree
-"3D Secure Verification Settings","Nastavení ověření 3D Secure",module,Magento_Braintree
-"3D Secure Verification","Ověření 3D Secure",module,Magento_Braintree
+"3D Secure Verification Settings","Nastavení ověření pomocí 3D Secure",module,Magento_Braintree
+"3D Secure Verification","Ověření pomocí 3D Secure",module,Magento_Braintree
 "Enable CAPTCHA in Admin","Zapnout CAPTCHA ve správě",module,Magento_Captcha
 Font,Písmo,module,Magento_Captcha
 Forms,Formuláře,module,Magento_Captcha
@@ -4129,7 +4128,7 @@ Comma-separated.,"Hodnoty oddělené čárkou.",module,Magento_Catalog
 "E.g. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Dynamic directives parsing impacts catalog performance.","Např. {{media url=""cesta/k/obrazku.jpg""}} {{skin url=""cesta/k/obrazku.jpg""}}. Dynamické příkazy ovlivňují výkon katalogu.",module,Magento_Catalog
 "Product Image Placeholders","Náhradní obrázek produktů",module,Magento_Catalog
 "Search Engine Optimization","Optimalizace pro vyhledávače",module,Magento_Catalog
-"Page Title Separator","Oddělovač v nadpisu stránky",module,Magento_Catalog
+"Page Title Separator","Oddělovač v názvu stránky",module,Magento_Catalog
 "Use Canonical Link Meta Tag For Categories","Používat kanonická URL kategorií",module,Magento_Catalog
 "Use Canonical Link Meta Tag For Products","Používat kanonická URL produktů",module,Magento_Catalog
 "Catalog Price Scope","Cenový rozsah katalogu",module,Magento_Catalog
@@ -4178,7 +4177,7 @@ Template,Šablona,module,Magento_Catalog
 "Catalog Product Link","Odkaz produktu katalogu",module,Magento_Catalog
 "Link to a Specified Product","Odkaz na konkrétní produkt",module,Magento_Catalog
 "Anchor Custom Text","Vlastní text kotvy",module,Magento_Catalog
-"Anchor Custom Title","Vlastní nadpis kotvy",module,Magento_Catalog
+"Anchor Custom Title","Vlastní název kotvy",module,Magento_Catalog
 "Product Link Block Template","Blokový odkaz produktu",module,Magento_Catalog
 "Product Link Inline Template","Řádkový odkaz produktu",module,Magento_Catalog
 "Catalog Category Link","Odkaz kategorie katalogu",module,Magento_Catalog
@@ -4230,14 +4229,14 @@ Details,Podrobnosti,module,Magento_Catalog
 "CMS Page","CMS Stránka",module,Magento_Cms
 "Anchor Custom Text","Vlastní text záchytného odkazu",module,Magento_Cms
 "If empty, the Page Title will be used","Necháte-li prázdné, bude použit nadpis stránky",module,Magento_Cms
-"Anchor Custom Title","Vlastní nadpis záchytného odkazu",module,Magento_Cms
+"Anchor Custom Title","Vlastní název kotvy",module,Magento_Cms
 Template,Šablona,module,Magento_Cms
 "CMS Page Link Block Template","Šablona blokového odkazu CMS stránky",module,Magento_Cms
 "CMS Page Link Inline Template","Šablona řádkového odkazu CMS stránky",module,Magento_Cms
-"CMS Static Block","CMS blok",module,Magento_Cms
-"Contents of a Static Block","Obsah CMS bloku",module,Magento_Cms
+"CMS Static Block","Statický blok CMS",module,Magento_Cms
+"Contents of a Static Block","Obsah statického bloku",module,Magento_Cms
 Block,Blok,module,Magento_Cms
-"CMS Static Block Default Template","Výchozí šablona CMS bloku",module,Magento_Cms
+"CMS Static Block Default Template","Výchozí šablona statického bloku CMS",module,Magento_Cms
 "Configurable Product Image","Obrázek konfigurovatelného produktu",module,Magento_ConfigurableProduct
 Contacts,Kontakty,module,Magento_Contact
 "Contact Us","Napište nám",module,Magento_Contact
@@ -4335,7 +4334,7 @@ Addresses,Adresy,module,Magento_Customer
 "Leave empty for access from any location.","Nezadáním umožníte přístup komukoli.",module,Magento_Developer
 "Enabled for Checkout","Zapnuto v pokladně",module,Magento_Dhl
 "Gateway URL","URL brány",module,Magento_Dhl
-Title,Titulek,module,Magento_Dhl
+Title,Název,module,Magento_Dhl
 "Access ID","Přístupové ID",module,Magento_Dhl
 Password,Heslo,module,Magento_Dhl
 "Account Number","Číslo účtu",module,Magento_Dhl
@@ -4363,7 +4362,7 @@ Debug,"Ladící režim",module,Magento_Dhl
 "Allowed Currencies","Povolené měny",module,Magento_Directory
 "Connection Timeout in Seconds","Časový limit spojení v sekundách",module,Magento_Directory
 "Scheduled Import Settings","Nastavení rozvrhu importu",module,Magento_Directory
-Enabled,Zapnuto,module,Magento_Directory
+Enabled,Povoleno,module,Magento_Directory
 "Error Email Recipient","Příjemce chybového e-mailu",module,Magento_Directory
 "Error Email Sender","Odesílatel chybového e-mailu",module,Magento_Directory
 "Error Email Template","Šablona chybového e-mailu",module,Magento_Directory
@@ -4378,8 +4377,8 @@ Service,Služba,module,Magento_Directory
 "Downloadable Product Options","Nastavení produktu ke stažení",module,Magento_Downloadable
 "Order Item Status to Enable Downloads","Stav objednávky pro zapnutí stahování",module,Magento_Downloadable
 "Default Maximum Number of Downloads","Výchozí maximální počet stažení",module,Magento_Downloadable
-"Default Sample Title","Výchozí titulek ukázky",module,Magento_Downloadable
-"Default Link Title","Výchozí titulek odkazu",module,Magento_Downloadable
+"Default Sample Title","Výchozí ukázkový název",module,Magento_Downloadable
+"Default Link Title","Výchozí název odkazu",module,Magento_Downloadable
 "Open Links in New Window","Otevřít odkaz v novém okně",module,Magento_Downloadable
 "Use Content-Disposition","Použít Content-Disposition",module,Magento_Downloadable
 "Disable Guest Checkout if Cart Contains Downloadable Items","Vypnout pokladnu hostům, pokud košík obsahuje produkt ke stažení",module,Magento_Downloadable
@@ -4393,7 +4392,7 @@ Subject,Předmět,module,Magento_Email
 "Template Type","Typ šablony",module,Magento_Email
 Action,Činnost,module,Magento_Email
 "Enabled for Checkout","Zapnuto v pokladně",module,Magento_Fedex
-Title,Titulek,module,Magento_Fedex
+Title,Název,module,Magento_Fedex
 "Account ID","ID účtu",module,Magento_Fedex
 "Please make sure to use only digits here. No dashes are allowed.","Zkontrolujte, zda jsou použity pouze číslice. Pomlčky nejsou povoleny.",module,Magento_Fedex
 "Meter Number","Pořadové číslo",module,Magento_Fedex
@@ -4508,7 +4507,7 @@ Store,Obchod,module,Magento_Newsletter
 Enabled,Zapnuto,module,Magento_OfflinePayments
 "New Order Status","Stav nové objednávky",module,Magento_OfflinePayments
 "Sort Order",Pořadí,module,Magento_OfflinePayments
-Title,Titulek,module,Magento_OfflinePayments
+Title,Název,module,Magento_OfflinePayments
 "Payment from Applicable Countries","Platby z dostupných zemí",module,Magento_OfflinePayments
 "Payment from Specific Countries","Platby ze zvolených zemí",module,Magento_OfflinePayments
 "Make Check Payable to","Šek vystavit na jméno",module,Magento_OfflinePayments
@@ -4521,7 +4520,7 @@ Instructions,Pokyny,module,Magento_OfflinePayments
 "Zero Subtotal Checkout","Nulová částka k úhradě",module,Magento_OfflinePayments
 "Automatically Invoice All Items","Automaticky fakturovat všechny položky",module,Magento_OfflinePayments
 "Flat Rate","Paušální sazba",module,Magento_OfflineShipping
-Enabled,Zapnuto,module,Magento_OfflineShipping
+Enabled,Povoleno,module,Magento_OfflineShipping
 "Method Name","Název metody",module,Magento_OfflineShipping
 Price,Cena,module,Magento_OfflineShipping
 "Calculate Handling Fee","Výpočet balného",module,Magento_OfflineShipping
@@ -4548,6 +4547,7 @@ Condition,Podmínky,module,Magento_OfflineShipping
 "Page Cache","Mezipaměť stránky",module,Magento_PageCache
 "Full page caching.","Celostránková mezipaměť.",module,Magento_PageCache
 "Payment Methods","Způsoby platby",module,Magento_Payment
+"API Password","Heslo pro API",module,Magento_Paypal
 "Sandbox Credentials","Přihlašovací údaje Sandboxu",module,Magento_Paypal
 "Publisher ID","ID vydavatele",module,Magento_Paypal
 "Home Page","Úvodní stránka",module,Magento_Paypal
@@ -4564,6 +4564,7 @@ Title,Název,module,Magento_Paypal
 "Payment Action","Platební akce",module,Magento_Paypal
 "Display on Product Details Page","Zobrazit na stránce produktu",module,Magento_Paypal
 "Authorization Honor Period (days)","Uznané období autorizace (dny)",module,Magento_Paypal
+"Advanced Settings","Rozšířené nastavení",module,Magento_Paypal
 "Also affects mini-shopping cart.","Ovlivňuje také blok mini košíku.",module,Magento_Paypal
 "Debug Mode","Ladící režim",module,Magento_Paypal
 "Enable SSL verification","Zapnout SSL ověření",module,Magento_Paypal
@@ -4771,7 +4772,7 @@ Shipment,Zásilka,module,Magento_Sales
 "Display Order ID in Header","Zobrazit ID objednávky v záhlaví",module,Magento_Sales
 "Asynchronous indexing","Asynchronní indexování",module,Magento_Sales
 "Orders and Returns Search Form","Formulář ke zjištění stavu objednávky",module,Magento_Sales
-"Anchor Custom Title","Vlastní titulek kotvy",module,Magento_Sales
+"Anchor Custom Title","Vlastní název kotvy",module,Magento_Sales
 "Default Template","Výchozí šablona",module,Magento_Sales
 Name,Název,module,Magento_Sales
 Phone,Telefon,module,Magento_Sales
@@ -4785,7 +4786,7 @@ Created,Vytvořeno,module,Magento_Sales
 "Ship Date","Datum zásilky",module,Magento_Sales
 "Total Quantity","Celkové množství",module,Magento_Sales
 "Default Status","Výchozí stav",module,Magento_Sales
-"State Code and Title","Kód situace a název",module,Magento_Sales
+"State Code and Title","Kód a název stavu",module,Magento_Sales
 "PDF Credit Memos","PDF dobropisy",module,Magento_Sales
 "Purchase Point","Místo nákupu",module,Magento_Sales
 "Print Invoices","Tisk faktur",module,Magento_Sales
@@ -4799,7 +4800,7 @@ Created,Vytvořeno,module,Magento_Sales
 "PDF Invoices","PDF faktury",module,Magento_Sales
 "Search Engine",Vyhledávač,module,Magento_Search
 "Email to a Friend","Odkaz e-mailem",module,Magento_SendFriend
-"Email Templates","Šablony e-mailu",module,Magento_SendFriend
+"Email Templates","Šablony e-mailů",module,Magento_SendFriend
 Enabled,Zapnuto,module,Magento_SendFriend
 "Select Email Template","Šablona e-mailu",module,Magento_SendFriend
 "Allow for Guests","Povolit hostům",module,Magento_SendFriend
@@ -4881,9 +4882,9 @@ Empty,Prázdné,module,Magento_Theme
 "HTML Head","HTML hlavička",module,Magento_Theme
 "Favicon Icon","Ikona favicon",module,Magento_Theme
 "Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats!","Povolené typy souborů: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Některé prohlížeče nepodporují všechny tyto formáty!",module,Magento_Theme
-"Default Title","Výchozí titulek",module,Magento_Theme
-"Title Prefix","Předpona titulku",module,Magento_Theme
-"Title Suffix","Přípona titulku",module,Magento_Theme
+"Default Title","Výchozí název",module,Magento_Theme
+"Title Prefix","Předpona názvu",module,Magento_Theme
+"Title Suffix","Přípona názvu",module,Magento_Theme
 "Default Description","Výchozí popis",module,Magento_Theme
 "Default Keywords","Výchozí klíčová slova",module,Magento_Theme
 "Miscellaneous Scripts","Další skripty",module,Magento_Theme
@@ -4930,7 +4931,7 @@ Container,Krabice,module,Magento_Ups
 Password,Heslo,module,Magento_Ups
 "Pickup Method","Způsob vyzvednutí",module,Magento_Ups
 "Sort Order",Pořadí,module,Magento_Ups
-Title,Titulek,module,Magento_Ups
+Title,Název,module,Magento_Ups
 "Tracking XML URL","URL sledovacího XML",module,Magento_Ups
 "UPS Type","Druh UPS",module,Magento_Ups
 "Live account","Ostrý účet",module,Magento_Ups
@@ -4962,7 +4963,7 @@ Unlocked,Odemčeno,module,Magento_User
 "Enabled for Checkout","Zapnuto v pokladně",module,Magento_Usps
 "Gateway URL","URL brány",module,Magento_Usps
 "Secure Gateway URL","Zabezpečená URL brány",module,Magento_Usps
-Title,Titulek,module,Magento_Usps
+Title,Název,module,Magento_Usps
 "User ID","ID uživatele",module,Magento_Usps
 Password,Heslo,module,Magento_Usps
 Mode,Režim,module,Magento_Usps
