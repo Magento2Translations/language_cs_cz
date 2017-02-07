@@ -353,7 +353,7 @@ selected,zvoleno,module,Magento_Backend
 "of %1","z %1",module,Magento_Backend
 "Next page","Další stránka",module,Magento_Backend
 "Export to:","Export do:",module,Magento_Backend
-Actions,Činnosti,module,Magento_Backend
+Actions,Akce,module,Magento_Backend
 "Mass Actions",Hromadně,module,Magento_Backend
 "Unselect All","Zrušit výběr všech",module,Magento_Backend
 "Select Visible","Zvolit viditelné",module,Magento_Backend
@@ -504,7 +504,7 @@ Submit,Odeslat,module,Magento_Braintree
 Type,Typ,module,Magento_Braintree
 "Card Number","Číslo karty",module,Magento_Braintree
 "Is Default",Výchozí,module,Magento_Braintree
-Actions,Činnosti,module,Magento_Braintree
+Actions,Akce,module,Magento_Braintree
 Yes,Ano,module,Magento_Braintree
 No,Ne,module,Magento_Braintree
 Edit,Upravit,module,Magento_Braintree
@@ -664,7 +664,7 @@ Qty,Množství,module,Magento_CatalogInventory
 "Edit Rule '%1'","Upravit pravidlo '%1'",module,Magento_CatalogRule
 "New Rule","Nové pravidlo",module,Magento_CatalogRule
 "Rule Information","Údaje pravidla",module,Magento_CatalogRule
-Actions,Činnosti,module,Magento_CatalogRule
+Actions,Akce,module,Magento_CatalogRule
 "Pricing Structure Rules","Cenová struktura pravidla",module,Magento_CatalogRule
 Apply,Použít,module,Magento_CatalogRule
 "Apply as percentage of original","Nastavit na procentuální hodnotu",module,Magento_CatalogRule
@@ -1224,7 +1224,7 @@ Title,Název,module,Magento_Catalog
 "Max Characters","Maximálně znaků",module,Magento_Catalog
 "Customer Group","Skupina zákazníků",module,Magento_Catalog
 "Item Price",Cena,module,Magento_Catalog
-Action,Činnost,module,Magento_Catalog
+Action,Akce,module,Magento_Catalog
 "and above","a více",module,Magento_Catalog
 "Delete Tier","Odstranit množstevní cenu",module,Magento_Catalog
 "Product In Websites","Produkt na webech",module,Magento_Catalog
@@ -1239,7 +1239,7 @@ Action,Činnost,module,Magento_Catalog
 "Advanced Settings","Rozšířené nastavení",module,Magento_Catalog
 "Changes have been made to this section that have not been saved.","V této sekci byly provedeny změny, které nebyly uloženy.",module,Magento_Catalog
 "This tab contains invalid data. Please resolve this before saving.","Tato záložka obsahuje neplatná data. Před uložením odstraňte problém prosím.",module,Magento_Catalog
-Actions,Činnosti,module,Magento_Catalog
+Actions,Akce,module,Magento_Catalog
 "Mass Actions",Hromadně,module,Magento_Catalog
 "Select All","Zvolit vše",module,Magento_Catalog
 "Unselect All","Zrušit výběr všech",module,Magento_Catalog
@@ -1453,7 +1453,7 @@ Description,Popis,module,Magento_Cms
 "Meta Description","Meta popis",module,Magento_Cms
 Created,Vytvořeno,module,Magento_Cms
 Modified,Upraveno,module,Magento_Cms
-Action,Činnost,module,Magento_Cms
+Action,Akce,module,Magento_Cms
 Preview,Náhled,module,Magento_Cms
 "Media Storage","Úložiště médií",module,Magento_Cms
 "Create Folder...","Vytvořit adresář...",module,Magento_Cms
@@ -1680,7 +1680,7 @@ Quantity,Množství,module,Magento_ConfigurableProduct
 Image,Obrázek,module,Magento_ConfigurableProduct
 Name,Název,module,Magento_ConfigurableProduct
 Weight,Hmotnost,module,Magento_ConfigurableProduct
-Actions,Činnosti,module,Magento_ConfigurableProduct
+Actions,Akce,module,Magento_ConfigurableProduct
 "Upload Image","Nahrát obrázek",module,Magento_ConfigurableProduct
 "Upload image","Nahrát obrázek",module,Magento_ConfigurableProduct
 "No Image","Bez obrázku",module,Magento_ConfigurableProduct
@@ -1770,7 +1770,7 @@ Product,Produkt,module,Magento_Customer
 Quantity,Množství,module,Magento_Customer
 Price,Cena,module,Magento_Customer
 Total,Celkem,module,Magento_Customer
-Action,Činnost,module,Magento_Customer
+Action,Akce,module,Magento_Customer
 Configure,Nastavit,module,Magento_Customer
 Delete,Smazat,module,Magento_Customer
 "Shopping Cart from %1","Nákupní košík z %1",module,Magento_Customer
@@ -2634,7 +2634,7 @@ Delete,Odstranit,module,Magento_ImportExport
 "Note: Product IDs will be regenerated.","Poznámka: ID produktů bude vygenerováno znovu.",module,Magento_ImportExport
 "Add/Update Complex Data","Přidat / Upravit komplexní údaje",module,Magento_ImportExport
 "Delete Entities","Odstranit entity",module,Magento_ImportExport
-"Custom Action","Vlastní činnost",module,Magento_ImportExport
+"Custom Action","Vlastní akce",module,Magento_ImportExport
 "Error message","Chybová zpráva",module,Magento_ImportExport
 "URL key for specified store already exists.","URL klíč ve zvoleném obchodě již existuje.",module,Magento_ImportExport
 "Entity Attributes","Atributy entity",module,Magento_ImportExport
@@ -2851,7 +2851,7 @@ Product,Produkt,module,Magento_Multishipping
 Qty,Množství,module,Magento_Multishipping
 "Send To","Odeslat na",module,Magento_Multishipping
 "A shipping selection is not applicable.","Výběr přepravy nelze použít.",module,Magento_Multishipping
-Actions,Činnosti,module,Magento_Multishipping
+Actions,Akce,module,Magento_Multishipping
 "Remove Item","Odebrat položku",module,Magento_Multishipping
 "Remove item","Odebrat položku",module,Magento_Multishipping
 "Go to Shipping Information","Přejít na doručovací údaje",module,Magento_Multishipping
@@ -2934,7 +2934,7 @@ Added,Přidáno,module,Magento_Newsletter
 Updated,Aktualizováno,module,Magento_Newsletter
 Sender,Odesílatel,module,Magento_Newsletter
 "Template Type","Typ šablony",module,Magento_Newsletter
-Action,Činnost,module,Magento_Newsletter
+Action,Akce,module,Magento_Newsletter
 "Queue Newsletter","Fronta zpravodaje",module,Magento_Newsletter
 "We unsubscribed the people you identified.","Označení lidé odběratelé odhlášeni.",module,Magento_Newsletter
 "The problems you identified have been deleted.","Označené problémy byly odstraněny.",module,Magento_Newsletter
@@ -3312,10 +3312,12 @@ Daily,Denně,module,Magento_Paypal
 "Created billing agreement #%1.","Vytvořeny platební podmínky č. %1.",module,Magento_Paypal
 "We can't create a billing agreement for this order.","Platební podmínky k této objednávce nelze vytvořit.",module,Magento_Paypal
 Error,Chyba,module,Magento_Paypal
+"Billing Agreement","Platební podmínky",module,Magento_Paypal
 "Please Select",Vyberte,module,Magento_Paypal
 Customer,Zákazník,module,Magento_Paypal
 "Created At",Vytvořeno,module,Magento_Paypal
 "Updated At",Aktualizováno,module,Magento_Paypal
+here,zde,module,Magento_Paypal
 "Agreement Information","Nastavení podmínek",module,Magento_Paypal
 "Reference ID:","Referenční ID:",module,Magento_Paypal
 Status:,Stav:,module,Magento_Paypal
@@ -3653,7 +3655,7 @@ Author,Autor,module,Magento_Review
 Created,Vytvořeno,module,Magento_Review
 Title,Název,module,Magento_Review
 Type,Typ,module,Magento_Review
-Action,Činnost,module,Magento_Review
+Action,Akce,module,Magento_Review
 Edit,Upravit,module,Magento_Review
 Delete,Smazat,module,Magento_Review
 "Are you sure?","Skutečně chcete provést tuto akci?",module,Magento_Review
@@ -3723,7 +3725,7 @@ Pending,Nevyřízená,module,Magento_Review
 "Option Title:","Název možnosti:",module,Magento_Review
 "Product Name","Název produktu",module,Magento_Review
 Rating,Hodnocení,module,Magento_Review
-Actions,Činnosti,module,Magento_Review
+Actions,Akce,module,Magento_Review
 "See Details","Zobrazit podrobnosti",module,Magento_Review
 "You have submitted no reviews.","Zatím jste neodeslal(a) žádnou recenzi.",module,Magento_Review
 Back,Zpět,module,Magento_Review
@@ -3793,7 +3795,7 @@ Category,Kategorie,module,Magento_Rule
 "Edit Rule '%1'","Upravit pravidlo '%1'",module,Magento_SalesRule
 "New Rule","Nové pravidlo",module,Magento_SalesRule
 "Rule Information","Nastavení pravidla",module,Magento_SalesRule
-Actions,Činnosti,module,Magento_SalesRule
+Actions,Akce,module,Magento_SalesRule
 "Pricing Structure Rules","Cenová struktura pravidla",module,Magento_SalesRule
 Apply,Použít,module,Magento_SalesRule
 "Percent of product price discount","Snížit o procentuální hodnotu cenu produktů",module,Magento_SalesRule
@@ -4400,7 +4402,7 @@ Remove,Odebrat,module,Magento_Sales
 "Gift Message for the Entire Order","Darovací vzkaz pro celou objednávku",module,Magento_Sales
 "Leave this box blank if you don't want to leave a gift message for the entire order.","Chcete-li přidat darovací vzkaz na celou objednávku, nechte údaj prázdný.",module,Magento_Sales
 "Row Subtotal",Mezisoučet,module,Magento_Sales
-Action,Činnost,module,Magento_Sales
+Action,Akce,module,Magento_Sales
 "No ordered items","Objednávka neobsahuje žádný produkt",module,Magento_Sales
 "Update Items and Quantities","Upravit položky a množství",module,Magento_Sales
 "Total %1 product(s)","Celkem produktů %1",module,Magento_Sales
@@ -4516,7 +4518,7 @@ Continue,Pokračovat,module,Magento_Sales
 "Order #","Objednávka č.",module,Magento_Sales
 Date,Datum,module,Magento_Sales
 "Ship To",Příjemce,module,Magento_Sales
-Actions,Činnosti,module,Magento_Sales
+Actions,Akce,module,Magento_Sales
 "View Order","Zobrazit objednávku",module,Magento_Sales
 "You have placed no orders.","Nemáte žádné objednávky.",module,Magento_Sales
 "No shipping information available","Údaje o zásilce nejsou dostupné",module,Magento_Sales
@@ -4729,7 +4731,7 @@ Explanation,Vysvětlení,module,Magento_Shipping
 Carrier,Dopravce,module,Magento_Shipping
 Title,Název,module,Magento_Shipping
 Number,Číslo,module,Magento_Shipping
-Action,Činnost,module,Magento_Shipping
+Action,Akce,module,Magento_Shipping
 "Are you sure?","Skutečně chcete provést tuto akci?",module,Magento_Shipping
 "Shipping &amp; Handling Information","Informace o dodání",module,Magento_Shipping
 "Track Order","Sledovat zásilku",module,Magento_Shipping
@@ -5369,7 +5371,7 @@ Total,Celkem,module,Magento_Weee
 Website,Web,module,Magento_Weee
 Country/State,"Země / kraj",module,Magento_Weee
 Tax,DPH,module,Magento_Weee
-Action,Činnost,module,Magento_Weee
+Action,Akce,module,Magento_Weee
 "Final Price","Konečná cena",module,Magento_Weee
 "Widget Insertion","Vložení widgetu",module,Magento_Widget
 "Insert Widget","Vložit widget",module,Magento_Widget
@@ -5751,7 +5753,7 @@ Ok,OK,module,Magento_Ui
 Severity,Závažnost,module,Magento_AdminNotification
 "Date Added","Ze dne",module,Magento_AdminNotification
 Message,Zpráva,module,Magento_AdminNotification
-Actions,Činnosti,module,Magento_AdminNotification
+Actions,Akce,module,Magento_AdminNotification
 Enabled,Zapnuto,module,Magento_Authorizenet
 "Payment Action","Platební akce",module,Magento_Authorizenet
 Title,Název,module,Magento_Authorizenet
@@ -5917,7 +5919,7 @@ Name,Název,module,Magento_Backup
 Size(bytes),Bajty,module,Magento_Backup
 Type,Typ,module,Magento_Backup
 Download,Stažení,module,Magento_Backup
-Action,Činnost,module,Magento_Backup
+Action,Akce,module,Magento_Backup
 Rollback,Obnova,module,Magento_Backup
 "Enable this Solution","Zapnout toto řešení",module,Magento_Braintree
 "Enable PayPal through Braintree","Zapnout PayPal prostřednictvím Braintree",module,Magento_Braintree
@@ -6391,7 +6393,7 @@ Added,Přidáno,module,Magento_Email
 Updated,Upraveno,module,Magento_Email
 Subject,Předmět,module,Magento_Email
 "Template Type","Typ šablony",module,Magento_Email
-Action,Činnost,module,Magento_Email
+Action,Akce,module,Magento_Email
 "Enabled for Checkout","Zapnuto v pokladně",module,Magento_Fedex
 Title,Název,module,Magento_Fedex
 "Account ID","ID účtu",module,Magento_Fedex
@@ -6728,7 +6730,7 @@ Average,Průměr,module,Magento_Reports
 "Ordered Quantity","Objednané množství",module,Magento_Reports
 "For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","Když je změněno časové pásmo, je nutné kvůli přesnosti údajů vždy aktualizovat celkové statistiky.",module,Magento_Reports
 Guest,Host,module,Magento_Reports
-Action,Činnost,module,Magento_Reports
+Action,Akce,module,Magento_Reports
 "Average (Approved)","Průměr (schváleno)",module,Magento_Reports
 "Last Review","Poslední recenze",module,Magento_Reports
 "Order Created","Datum objednávky",module,Magento_Reports
@@ -6871,7 +6873,7 @@ Synonym,Synonymum,module,Magento_Search
 "Suggested Terms","Navrhované termíny",module,Magento_Search
 yes,ano,module,Magento_Search
 no,ne,module,Magento_Search
-Action,Činnost,module,Magento_Search
+Action,Akce,module,Magento_Search
 Edit,Upravit,module,Magento_Search
 "Email to a Friend","Odkaz e-mailem",module,Magento_SendFriend
 "Email Templates","Šablony e-mailů",module,Magento_SendFriend
@@ -6916,7 +6918,7 @@ Enabled,Zapnuto,module,Magento_Sitemap
 "Enable Submission to Robots.txt","Zapnout předložení v Robots.txt",module,Magento_Sitemap
 "Link for Google","Odkaz pro Google",module,Magento_Sitemap
 "Last Generated",Aktualizováno,module,Magento_Sitemap
-Action,Činnost,module,Magento_Sitemap
+Action,Akce,module,Magento_Sitemap
 Configuration,Nastavení,module,Magento_Store
 "Various XML configurations that were collected across modules and merged.","Různé XML úpravy, které byly shromážděny napříč moduly a sloučeny.",module,Magento_Store
 Layouts,Rozvržení,module,Magento_Store
@@ -7012,7 +7014,7 @@ Translations,Překlady,module,Magento_Translation
 "Translation files.","Soubory překladu.",module,Magento_Translation
 "Log JS Errors to Session Storage","Protokolovat chyby JS do úložiště relací",module,Magento_Ui
 "Log JS Errors to Session Storage Key","Protokolovat chyby JS do klíče",module,Magento_Ui
-Action,Činnost,module,Magento_Ui
+Action,Akce,module,Magento_Ui
 "Access License Number","Přístupové licenční číslo",module,Magento_Ups
 "Enabled for Checkout","Zapnuto v pokladně",module,Magento_Ups
 "Allowed Methods","Povolené způsoby",module,Magento_Ups
@@ -7048,7 +7050,7 @@ Title,Název,module,Magento_Ups
 Mode,Režim,module,Magento_Ups
 "This enables or disables SSL verification of the Magento server by UPS.","Zapnout nebo vypnout ověření ze stany UPS nastavení SSL Magento serveru.",module,Magento_Ups
 Debug,"Ladící režim",module,Magento_Ups
-Action,Činnost,module,Magento_UrlRewrite
+Action,Akce,module,Magento_UrlRewrite
 Edit,Upravit,module,Magento_UrlRewrite
 "Reset Password Template","Šablona e-mailu obnovy hesla",module,Magento_User
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Je-li zvolena volba ""Výchozí"", e-mailová šablona je postavena na výchozím tématu.",module,Magento_User
@@ -7137,7 +7139,7 @@ Quantity,Množství,module,Magento_Wishlist
 "Add Locale","Přidat lokalitu",module,Magento_Wishlist
 "Add Date","Přidat datum",module,Magento_Wishlist
 "Days in Wish List","Dnů v oblíbených",module,Magento_Wishlist
-Action,Činnost,module,Magento_Wishlist
+Action,Akce,module,Magento_Wishlist
 Configure,Nastavit,module,Magento_Wishlist
 Delete,Odstranit,module,Magento_Wishlist
 "Product Details and Comment","Údaje produktu a komentář",module,Magento_Wishlist
