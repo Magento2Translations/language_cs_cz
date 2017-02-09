@@ -130,7 +130,7 @@ Save,Uložit,module,Magento_Backend
 Store,Obchod,module,Magento_Backend
 "-- Please Select --","-- Zvolte prosím --",module,Magento_Backend
 "Custom Design","Vlastní vzhled",module,Magento_Backend
-"Date From","Od data",module,Magento_Backend
+"Date From",Od,module,Magento_Backend
 "Date To","Do data",module,Magento_Backend
 "Design Change","Změna vzhledu",module,Magento_Backend
 General,Základní,module,Magento_Backend
