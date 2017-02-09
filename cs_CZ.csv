@@ -157,7 +157,7 @@ Save,Uložit,module,Magento_Backend
 Store,Obchod,module,Magento_Backend
 "-- Please Select --","-- Zvolte prosím --",module,Magento_Backend
 "Custom Design","Vlastní vzhled",module,Magento_Backend
-"Date From","Od data",module,Magento_Backend
+"Date From",Od,module,Magento_Backend
 "Date To","Do data",module,Magento_Backend
 "Design Change","Změna vzhledu",module,Magento_Backend
 General,Základní,module,Magento_Backend
@@ -1688,6 +1688,7 @@ Reset,Obnovit,module,Magento_CurrencySymbol
 "All valid rates have been saved.","Všechny platné kurzy byly uloženy",module,Magento_CurrencySymbol
 System,Systém,module,Magento_CurrencySymbol
 "You applied the custom currency symbols.","Vlastní symboly měn byly použity.",module,Magento_CurrencySymbol
+"You must first configure currency options before being able to see currency rates.","Aby bylo možné zobrazit měnové kurzy, musíte nejprve nakonfigurovat nastavení měny.",module,Magento_CurrencySymbol
 "Old rate:","Předchozí kurz:",module,Magento_CurrencySymbol
 "Please specify a website.","Zadejte web prosím.",module,Magento_CustomerImportExport
 "Please specify an email.","Zadejte e-mail prosím.",module,Magento_CustomerImportExport
@@ -1822,6 +1823,7 @@ Download,Stáhnout,module,Magento_Customer
 "Account Information","Informace o účtu",module,Magento_Customer
 "You saved the account information.","Nastavení účtu bylo uloženo.",module,Magento_Customer
 "The account is locked. Please wait and try again or contact %1.","Účet je uzamčen. Počkejte chvíli a zkuste to později nebo kontaktujte %1.",module,Magento_Customer
+"Password confirmation doesn't match entered password.","Heslo a potvrzení hesla se neshodují.",module,Magento_Customer
 "The password doesn't match this account.","Heslo neodpovídá tomuto účtu.",module,Magento_Customer
 "Please correct the email address.","Opravte e-mailovou adresu prosím.",module,Magento_Customer
 "We're unable to send the password reset email.","E-mail pro obnovu hesla nelze odeslat.",module,Magento_Customer
@@ -1878,11 +1880,14 @@ Customers,Zákazníci,module,Magento_Customer
 "Invalid confirmation token","Neplatný potvrzující token",module,Magento_Customer
 "The account is locked.","Účet je uzamčen.",module,Magento_Customer
 "This account is not confirmed.","Tento účet není potvrzen.",module,Magento_Customer
+"Invalid value of ""%value"" provided for the %fieldName field.","Pro pole %fieldName je hodnota ""%value"" neplatná.",module,Magento_Customer
+"Please enter a password with at most %1 characters.","Zadejte heslo obsahující alespoň %1 znaků.",module,Magento_Customer
 "Please enter a password with at least %1 characters.","Zadejte heslo obsahující alespoň %1 znaků prosím.",module,Magento_Customer
 "The password can't begin or end with a space.","Heslo nesmí začínat ani končit mezerou.",module,Magento_Customer
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Heslo musí obsahovat alespoň %1 druhy znaků. Druhy znaků jsou: malá písmena, velká písmena, číslice, speciální znaky.",module,Magento_Customer
 "This customer already exists in this store.","Tento zákazník již v tomto obchodu existuje.",module,Magento_Customer
 "A customer with the same email already exists in an associated website.","Zákazník se stejným e-mailem již v přiřazeném webu existuje.",module,Magento_Customer
+"%fieldName is a required field.","%fieldName je povinné pole.",module,Magento_Customer
 "Reset password token mismatch.","Token obnovy hesla je neplatný.",module,Magento_Customer
 "Reset password token expired.","Platnost tokenu obnovy hesla vypršela.",module,Magento_Customer
 "Please correct the transactional account email type.","Opravte prosím typ transakčního účtu e-mailu.",module,Magento_Customer
@@ -1903,6 +1908,8 @@ Global,Globální,module,Magento_Customer
 "-- Please Select --","– Vyberte –",module,Magento_Customer
 "Please enter a valid password reset token.","Zadejte platný token obnovy hesla prosím.",module,Magento_Customer
 "The password can not begin or end with a space.","Heslo nesmí začínat ani končit mezerou.",module,Magento_Customer
+"ALL GROUPS","VŠECHNY SKUPINY",module,Magento_Customer
+"No such entity with %fieldName = %fieldValue, %field2Name = %field2Value","Entita s %fieldName = %fieldValue, %field2Name = %field2Value neexistuje",module,Magento_Customer
 "Attribute object is undefined","Objektu atributu není definován",module,Magento_Customer
 """%1"" invalid type entered.","Zadán neplatný typ ""%1"".",module,Magento_Customer
 """%1"" contains non-alphabetic or non-numeric characters.","""%1"" neobsahuje pouze abecední nebo číselné znaky.",module,Magento_Customer
@@ -1938,6 +1945,7 @@ label,označení,module,Magento_Customer
 "Please enter a customer email.","Zadejte e-mail zákazníka prosím.",module,Magento_Customer
 "A customer website ID must be specified when using the website scope.","Musí být zadáno ID webu zákazníka při použití rozsahu platnosti účtů na web.",module,Magento_Customer
 "Customer Group","Zákaznická skupina",module,Magento_Customer
+"You can't delete group ""%1"".","Nelze odstranit skupinu ""%1"".",module,Magento_Customer
 "Customer Group already exists.","Skupina zákazníků již existuje.",module,Magento_Customer
 "Cannot delete group.","Skupinu nelze odstranit.",module,Magento_Customer
 "Error during VAT Number verification.","Při ověřování DIČ nastala chyba.",module,Magento_Customer
@@ -1950,6 +1958,7 @@ label,označení,module,Magento_Customer
 "The VAT ID entered (%1) is not a valid VAT ID.","Zadané DIČ (%1) není platné.",module,Magento_Customer
 "Your Tax ID cannot be validated.","Vaše DIČ nelze ověřit.",module,Magento_Customer
 "If you believe this is an error, please contact us at %1","Pokud se domníváte, že jde o chybu, kontaktujte nás prosím na %1",module,Magento_Customer
+"No such entity with %fieldName = %fieldValue","Entita s %fieldName = %fieldValue neexistuje",module,Magento_Customer
 Male,Muž,module,Magento_Customer
 Female,Žena,module,Magento_Customer
 "Not Specified",Nezadáno,module,Magento_Customer
@@ -1964,6 +1973,7 @@ Exception,Výjimka,module,Magento_Customer
 "Validator Exception","Výjimka validátoru",module,Magento_Customer
 "Localized Exception","Výjimka lokalizace",module,Magento_Customer
 "some error","nějaká chyba",module,Magento_Customer
+"NOT LOGGED IN",NEPŘIHLÁŠEN,module,Magento_Customer
 Label,Štítek,module,Magento_Customer
 Select...,Zvolit...,module,Magento_Customer
 Edit,Upravit,module,Magento_Customer
@@ -2098,6 +2108,7 @@ kgs,kg,module,Magento_Directory
 "Undefined rate from ""%1-%2"".","Nedefinovaný kurz z ""%1-%2"".",module,Magento_Directory
 "Please correct the target currency.","Opravte prosím cílovou měnu.",module,Magento_Directory
 label,štítek,module,Magento_Directory
+"We can't retrieve a rate from %1 for %2.","Nelze načíst kurzy v %1 pro %2.",module,Magento_Directory
 "We can't retrieve a rate from %1.","Kurz pro %1 nelze získat.",module,Magento_Directory
 "FATAL ERROR:","ZÁVAŽNÁ CHYBA:",module,Magento_Directory
 "We can't initialize the import model.","Model importu nelze inicializovat.",module,Magento_Directory
@@ -2131,6 +2142,7 @@ Unlimited,Neomezeno,module,Magento_Downloadable
 "Something went wrong while saving the file(s).","Při ukládání souboru nastala chyba.",module,Magento_Downloadable
 "Provided content must be valid base64 encoded data.","Zadaný obsah musí být platná base64 kódovaná data.",module,Magento_Downloadable
 "Provided file name contains forbidden characters.","Název souboru obsahuje nepovolené znaky.",module,Magento_Downloadable
+"Link file not provided","Odkazovaný soubor není k dispozici",module,Magento_Downloadable
 "Link price must have numeric positive value.","Cena odkazu musí být kladné číslo.",module,Magento_Downloadable
 "Number of downloads must be a positive integer.","Počet stažení musí být celé kladné číslo.",module,Magento_Downloadable
 "Sort order must be a positive integer.","Pořadí musí být celé kladné číslo.",module,Magento_Downloadable
@@ -2139,6 +2151,7 @@ Unlimited,Neomezeno,module,Magento_Downloadable
 "Sample URL must have valid format.","URL vzorku musí mít platný formát.",module,Magento_Downloadable
 "Order id cannot be null","ID objednávky nemůže být prázdné",module,Magento_Downloadable
 "Order item id cannot be null","ID položky objednávky nemůže být prázdné",module,Magento_Downloadable
+"Provided product must be type 'downloadable'.","Zadaný produkt musí být typu ""ke stažení"".",module,Magento_Downloadable
 "Provided link information is invalid.","Poskytnutý odkaz je neplatný.",module,Magento_Downloadable
 "Invalid link type.","Neplatný typ odkazu.",module,Magento_Downloadable
 "Link title cannot be empty.","Titulek odkazu nesmí být prázdný.",module,Magento_Downloadable
@@ -2146,6 +2159,7 @@ Unlimited,Neomezeno,module,Magento_Downloadable
 "Provided downloadable link is not related to given product.","Poskytnutý odkaz ke stažení se nevztahuje k uvedenému produktu.",module,Magento_Downloadable
 "Cannot delete link with id %1","Odkaz s ID %1 nelze odstranit",module,Magento_Downloadable
 "Please specify product link(s).","Zvolte odkazy produktu prosím.",module,Magento_Downloadable
+"Sample file not provided","Ukázkový soubor není k dispozici",module,Magento_Downloadable
 "Provided sample information is invalid.","Poskytnutý odkaz je neplatný.",module,Magento_Downloadable
 "Invalid sample type.","Neplatný typ vzorku.",module,Magento_Downloadable
 "Sample title cannot be empty.","Vzorový název nemůže být prázdný.",module,Magento_Downloadable
@@ -2490,6 +2504,7 @@ Constant,Konstantní,module,Magento_GoogleAdwords
 "Conversion Id value is not valid ""%1"". Conversion Id should be an integer.","Hodnota ID konverze není platná ""%1"". ID konverze musí být celé číslo.",module,Magento_GoogleAdwords
 "Product View Optimization","Optimalizace zobrazení produktu",module,Magento_GoogleOptimizer
 "Page View Optimization","Optimalizace zobrazení stránky",module,Magento_GoogleOptimizer
+"Data key is missing: %1","Datový klíč %1 chybí",module,Magento_GoogleOptimizer
 "Google Analytics Content Experiments Code","Kód Google Analytics Experimentu",module,Magento_GoogleOptimizer
 "Experiment Code","Kód experimentu",module,Magento_GoogleOptimizer
 "Experiment code should be added to the original page only.","Kód experimentu by měl být vložen pouze na původní stránku.",module,Magento_GoogleOptimizer
@@ -2558,6 +2573,7 @@ Status,Stav,module,Magento_ImportExport
 "Sorry, but the data is invalid or the file is not uploaded.","Soubor nebyl nahrán nebo jsou data neplatná.",module,Magento_ImportExport
 "The file was not uploaded.","Soubor nebyl nahrán.",module,Magento_ImportExport
 "This file is empty. Please try another one.","Tento soubor je prázdný. Zkuste jiný.",module,Magento_ImportExport
+"Data validation failed. Please fix the following errors and upload the file again.","Ověření dat se nezdařilo. Prosím opravte následující chyby a odešlete soubor znovu.",module,Magento_ImportExport
 "File is valid! To start import process press ""Import"" button","Soubor je v pořádku! Proces zahájíte kliknutím na tlačítko ""Importovat""",module,Magento_ImportExport
 "The file is valid, but we can't import it for some reason.","Soubor je v pořádku, ale z nějakého důvodu jej nelze importovat.",module,Magento_ImportExport
 "Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","Ověřeno řádků: %1, ověřeno entit: %2, chybných řádků: %3, celkem chyb: %4",module,Magento_ImportExport
@@ -2565,6 +2581,7 @@ Status,Stav,module,Magento_ImportExport
 "Additional data","Další údaje",module,Magento_ImportExport
 "Following Error(s) has been occurred during importing process:","Během importu došlo k následujícím chybám:",module,Magento_ImportExport
 "Download full report","Stáhnout kompletní zprávu",module,Magento_ImportExport
+"in row(s):","na řádcích:",module,Magento_ImportExport
 "Make sure your file isn't more than %1M.","Maximální povolená velikost souboru je %1M.",module,Magento_ImportExport
 "We can't provide the upload settings right now.","Nahrání souboru momentálně nelze nastavit.",module,Magento_ImportExport
 "Created: %1, Updated: %2, Deleted: %3","Vytvořeno: %1, upraveno: %2, odstraněno: %3",module,Magento_ImportExport
@@ -2689,6 +2706,7 @@ Reauthorize,"Znovu autorizovat",module,Magento_Integration
 "The tokens could not be revoked.","Tokeny nelze zrušit.",module,Magento_Integration
 "Sorry, something went wrong granting permissions. You can find out more in the exceptions log.","Při udělení oprávnění nastala chyba. Více informací naleznete v protokolu výjimek.",module,Magento_Integration
 "Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.","Při odstranění rolí a oprávnění nastala chyba. Více informací naleznete v protokolu výjimek.",module,Magento_Integration
+"%fieldName is a required field.","%fieldName je povinné pole.",module,Magento_Integration
 "This customer has no tokens.","Tento zákazník nemá žádný token.",module,Magento_Integration
 Inactive,Neaktivní,module,Magento_Integration
 Active,Aktivní,module,Magento_Integration
@@ -3010,6 +3028,7 @@ None,Nic,module,Magento_OfflineShipping
 "Unable to import data","Nelze importovat data",module,Magento_OfflineShipping
 "Something went wrong while importing table rates.","Při importu tabulky sazeb nastala chyba.",module,Magento_OfflineShipping
 "We couldn't import this file because of these errors: %1","Tento soubor nelze importovat z důvodu chyby: %1",module,Magento_OfflineShipping
+"Column ""%1"" not found","Sloupec ""%1"" nebyl nalezen",module,Magento_OfflineShipping
 "Please correct Table Rates format in the Row #%1.","V tabulce sazeb na řádku č. %1 opravte formát prosím.",module,Magento_OfflineShipping
 "Please correct Country ""%1"" in the Row #%2.","Opravte zemi ""%1"" v řádku č. %2 prosím.",module,Magento_OfflineShipping
 "Please correct Region/State ""%1"" in the Row #%2.","Opravte kraj / region ""%1"" v řádku č. %2 prosím.",module,Magento_OfflineShipping
@@ -4959,6 +4978,8 @@ Tax,DPH,module,Magento_Tax
 "Use digits only for the zip code.","PSČ musí mít číselný formát.",module,Magento_Tax
 "Range To should be equal or greater than Range From.","Rozsah do musí být větší než rozsah od.",module,Magento_Tax
 "The tax rate cannot be removed. It exists in a tax rule.","Sazbu DPH nelze odstranit. Je použita v pravidlech DPH.",module,Magento_Tax
+"%fieldName is a required field.","%fieldName je povinné pole.",module,Magento_Tax
+"Invalid value of ""%value"" provided for the %fieldName field.","Pro pole %fieldName je hodnota ""%value"" neplatná.",module,Magento_Tax
 "This class no longer exists.","Tato třída již neexistuje.",module,Magento_Tax
 "You cannot delete this tax class because it is used in Tax Rules. You have to delete the rules it is used in first.","Tuto třídu nelze odstranit, protože je použita v pravidlech DPH. Nejdříve se musí odstranit pravidlo.",module,Magento_Tax
 "You cannot delete this tax class because it is used in existing %1(s).","Tuto třídu nelze odstranit, protože je použita v existujících %1.",module,Magento_Tax
@@ -4974,6 +4995,7 @@ Tax,DPH,module,Magento_Tax
 Code,Kód,module,Magento_Tax
 "Invalid type supplied","Uveden neplatný typ",module,Magento_Tax
 "Class name and class type","Název třídy a typ třídy",module,Magento_Tax
+"No such entity with %fieldName = %fieldValue","Entita s %fieldName = %fieldValue neexistuje",module,Magento_Tax
 "Grand Total (Excl. Tax)","Celkový součet (bez DPH)",module,Magento_Tax
 "Grand Total (Incl. Tax)","Celkový součet (s DPH)",module,Magento_Tax
 "Shipping (Excl. Tax)","Přepravné (bez DPH)",module,Magento_Tax
@@ -5634,6 +5656,7 @@ Next,Další,module,Magento_Checkout
 "Email: %email","E-mail: %email",module,Magento_Contact
 "Phone Number: %telephone","Telefonní číslo: %telephone",module,Magento_Contact
 "Comment: %comment","Komentář: %comment",module,Magento_Contact
+"Welcome to %store_name","Vítejte v %store_name",module,Magento_Customer
 "Welcome to %store_name.","Vítejte v %store_name.",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Tyto přihlašovací údaje použijte k přihlášení na naše stránky v průběhu dokončení objednávky nebo na <a href=""%customer_url"">Můj účet</a> stránce:",module,Magento_Customer
 Email:,E-mail:,module,Magento_Customer
@@ -5645,19 +5668,24 @@ Password:,Heslo:,module,Magento_Customer
 "Check the status of orders","Zkontrolovat stav objednávek",module,Magento_Customer
 "View past orders","Zobrazit předchozí objednávky",module,Magento_Customer
 "Store alternative addresses (for shipping to multiple family members and friends)","Používání alternativních adres (pro doručování dalším členům rodiny či přátelům)",module,Magento_Customer
+"Please confirm your %store_name account","Potvrďte svůj %store_name účet",module,Magento_Customer
 "You must confirm your %customer_email email before you can sign in (link is only valid once):","Před přihlášením musíte svůj e-mail %customer_email potvrdit (odkaz je platný pouze jednou):",module,Magento_Customer
 "Confirm Your Account","Potvrďte svůj účet",module,Magento_Customer
 "Thank you for confirming your %store_name account.","Děkujeme za potvrzení vašeho účtu %store_name.",module,Magento_Customer
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","K přihlášení na náš web a nastavení hesla klikněte na tento <a href=""%create_password_url"">odkaz</a>:",module,Magento_Customer
+"Your %store_name email has been changed","Vaše emailová adresa v obchodu %store_name byla změněna",module,Magento_Customer
 "Hello,","Ahoj,",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: email.","Obdrželi jsme požadavek na změnu následujících údajů spojené s vaším účtem v %store_name: email.",module,Magento_Customer
 "If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>","Pokud k této činnosti nemáte oprávnění, kontaktujte nás ihned prosím na <a href=""mailto:%store_email"">%store_email</a>",module,Magento_Customer
 "or call us at <a href=""tel:%store_phone"">%store_phone</a>","nebo volejte na <a href=""tel:%store_phone"">%store_phone</a>",module,Magento_Customer
 "Thanks,<br>%store_name","Děkujeme,<br>%store_name",module,Magento_Customer
+"Your %store_name email and password has been changed","Vaše emailová adresa a heslo v obchodu %store_name byly změněny",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: email, password.","Obdrželi jsme požadavek na změnu následujících údajů spojené s vaším účtem v %store_name: e-mail, heslo.",module,Magento_Customer
+"Reset your %store_name password","Obnovení hesla pro %store_name",module,Magento_Customer
 "There was recently a request to change the password for your account.","Byl zaslán požadavek na změnu hesla k účtu.",module,Magento_Customer
 "If you requested this change, set a new password here:","Pokud jste žádali o změnu hesla, zde zadejte vaše nové:",module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Pokud jste o změnu nežádali, tuto zprávu můžete ignorovat a vaše heslo zůstane stejné.",module,Magento_Customer
+"Your %store_name password has been changed","Vaše heslo v %store_name bylo změněno",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","Obdrželi jsme požadavek na změnu následujících údajů spojené s vaším účtem v %store_name: heslo.",module,Magento_Customer
 "Checkout out as a new customer","Objednat jako nový zákazník",module,Magento_Customer
 "Creating an account has many benefits:","Registrace přináší řadu výhod:",module,Magento_Customer
@@ -5713,6 +5741,7 @@ Delete,Odstranit,module,Magento_GiftMessage
 "%sender_name wants to share this product with you:","%sender_name vám zasílá odkaz na tento produkt:",module,Magento_SendFriend
 "Message from %sender_name:","Zpráva od %sender_name:",module,Magento_SendFriend
 "See our Shipping Policy","Naše pravidla přepravy",module,Magento_Shipping
+"Sitemap generate Warnings","Mapa stránek generuje upozornění",module,Magento_Sitemap
 "Sitemap Generation Warnings","Upozornění generování mapy stránek",module,Magento_Sitemap
 Email:,E-mail:,module,Magento_Theme
 Password:,Heslo:,module,Magento_Theme
@@ -5722,6 +5751,7 @@ Assign,Přiřadit,module,Magento_Ui
 Options,Možnosti,module,Magento_Ui
 "records found","nalezených záznamů",module,Magento_Ui
 selected,zvoleno,module,Magento_Ui
+of,z,module,Magento_Ui
 Filters,Filtry,module,Magento_Ui
 "There was recently a request to change the password for your account.","Byl zaslán požadavek na změnu hesla k účtu.",module,Magento_User
 "If you requested this change, reset your password here:","Pokud jste žádali o změnu hesla, zde zadejte vaše nové:",module,Magento_User
@@ -5822,6 +5852,7 @@ Strong,Silné,module,Magento_Customer
 "Guest checkout is disabled.","Pokladna je pro hosty vypnuta.",module,Magento_Customer
 "We could not detect a size.","Velikost nelze zjistit.",module,Magento_Downloadable
 "Sorry, something went wrong. Please try again later.","Něco se nezdařilo. Zkuste to znovu.",module,Magento_Integration
+"Popup Blocker is enabled! Please add this site to your exception list.","Je povoleno blokování vyskakovacích oken! Prosím, přidejte tento web do seznamu výjimek.",module,Magento_Integration
 Allow,Povolit,module,Magento_Integration
 Done,Hotovo,module,Magento_Integration
 "We can't complete your order because you don't have a payment method set up.","Objednávku nelze dokončit, protože nemáte nastaven způsob platby.",module,Magento_Multishipping
@@ -6580,6 +6611,7 @@ Currency,Měna,module,Magento_CurrencySymbol
 "Online Minutes Interval","Online interval v minutách",module,Magento_Customer
 "Leave empty for default (15 minutes).","Pro výchozích 15 minut nechte údaj prázdný.",module,Magento_Customer
 "Enable Autocomplete on login/forgot password forms","Zapnout automatické dokončování formulářů pro přihlášení / zapomenuté heslo",module,Magento_Customer
+"Customer Notification","Oznámení pro zákazníka",module,Magento_Customer
 "Customer Grid","Tabulka zákazníků",module,Magento_Customer
 "Rebuild Customer grid index","Přeindexovat tabulku zákazníků",module,Magento_Customer
 Group,Skupina,module,Magento_Customer
@@ -7109,6 +7141,8 @@ Apply,Použít,module,Magento_SalesRule
 "Discount Amount","Výše slevy",module,Magento_SalesRule
 "Maximum Qty Discount is Applied To","Maximální počet slev je použit na",module,Magento_SalesRule
 "Discount Qty Step (Buy X)","Krok počtu slev (Kup X)",module,Magento_SalesRule
+"Discount amount is applied to subtotal only","Sleva je aplikována pouze na mezisoučet",module,Magento_SalesRule
+"Discount amount is applied to subtotal and shipping amount separately","Sleva je aplikována na mezisoučet a dopravné zvlášť",module,Magento_SalesRule
 "Apply to Shipping Amount","Použít na přepravné",module,Magento_SalesRule
 "Discard subsequent rules","Zrušit následná pravidla",module,Magento_SalesRule
 "Default Rule Label for All Store Views","Výchozí označení pravidla ve všech zobrazení obchodu",module,Magento_SalesRule
