@@ -6941,6 +6941,7 @@ Fetch,Stáhnout,module,Magento_Paypal
 Actions,Akce,module,Magento_Paypal
 Manage,Spravovat,module,Magento_Paypal
 "API Password","Heslo pro API",module,Magento_Paypal
+"Sandbox Mode","Režim izolovaného prostoru",module,Magento_Paypal
 "Publisher ID","ID vydavatele",module,Magento_Paypal
 "Home Page","Úvodní stránka",module,Magento_Paypal
 Display,Zobrazení,module,Magento_Paypal
