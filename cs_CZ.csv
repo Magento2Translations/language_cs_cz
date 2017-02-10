@@ -4551,6 +4551,7 @@ Condition,Podmínky,module,Magento_OfflineShipping
 "Payment Methods","Způsoby platby",module,Magento_Payment
 "API Password","Heslo pro API",module,Magento_Paypal
 "Sandbox Credentials","Přihlašovací údaje Sandboxu",module,Magento_Paypal
+"Sandbox Mode","Režim izolovaného prostoru",module,Magento_Paypal
 "Publisher ID","ID vydavatele",module,Magento_Paypal
 "Home Page","Úvodní stránka",module,Magento_Paypal
 Display,Zobrazení,module,Magento_Paypal
