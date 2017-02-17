@@ -437,13 +437,6 @@ Authorize,Schválit,module,Magento_Braintree
 "Authorize and Capture","Schválit a získat",module,Magento_Braintree
 "--Please Select--",--Vyberte--,module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","Před objednáním musíte souhlasit s obchodními podmínkami.",module,Magento_Braintree
-"Paypal account","PayPal účet",module,Magento_Braintree
-"Credit card","Platební karta",module,Magento_Braintree
-"Apple pay card","Platební karta Apple Pay",module,Magento_Braintree
-Authorizing,Ověřuji,module,Magento_Braintree
-Authorized,Schváleno,module,Magento_Braintree
-Unrecognized,Nerozpoznáno,module,Magento_Braintree
-Sale,Prodej,module,Magento_Braintree
 "Credit Card Type","Typ platební karty",module,Magento_Braintree
 "Credit Card Number","Číslo platební karty",module,Magento_Braintree
 "Expiration Date","Datum expirace",module,Magento_Braintree
@@ -4241,6 +4234,7 @@ Canceled,Zrušená,module,Magento_Sales
 "Unknown State","Neznámá situace",module,Magento_Sales
 "We found an invalid quantity to refund item ""%1"".","Bylo nalezeno neplatné množství k vrácení položky ""%1"".",module,Magento_Sales
 "Maximum shipping amount allowed to refund is: %1","Maximální povolená částka přepravného k vrácení je: %1",module,Magento_Sales
+"The most money available to refund is %1.","Největší možná částka ke vrácení je %1.",module,Magento_Sales
 "Could not delete credit memo","Dobropis nelze odstranit",module,Magento_Sales
 "Could not save credit memo","Dobropis nelze uložit",module,Magento_Sales
 "This order already has associated customer account","Tato objednávka je již k účtu zákazníka přiřazena",module,Magento_Sales
@@ -4276,12 +4270,9 @@ Mixed,Smíšeně,module,Magento_Sales
 "The payment method you requested is not available.","Požadovaný způsob platby není dostupný.",module,Magento_Sales
 "The payment disallows storing objects.","Platba neumožňuje ukládání objektů.",module,Magento_Sales
 "The transaction ""%1"" cannot be captured yet.","Transakci ""%1"" již nelze zachytit.",module,Magento_Sales
-"We will authorize %1 after the payment is approved at the payment gateway.","%1 bude autorizováno až po schválení platby platební branou.",module,Magento_Sales
-"Authorized amount of %1","Autorizovaná částka z %1",module,Magento_Sales
-"An amount of %1 will be captured after being approved at the payment gateway.","Částka %1 bude zachycena po schválení na platební bránu.",module,Magento_Sales
-"Captured amount of %1 online","Zachycená částka z %1 online",module,Magento_Sales
 "The order amount of %1 is pending approval on the payment gateway.","Částka %1 čeká ke schválení na platební bráně.",module,Magento_Sales
 "Ordered amount of %1","Částka objednávky z %1",module,Magento_Sales
+"An amount of %1 will be captured after being approved at the payment gateway.","Částka %1 bude zachycena po schválení na platební bránu.",module,Magento_Sales
 "Registered notification about captured amount of %1.","Bylo zaregistrováno oznámení o zachycené částce %1.",module,Magento_Sales
 "The parent transaction ID must have a transaction ID.","ID nadřazené transakce musí obsahovat ID transakce.",module,Magento_Sales
 "Payment transactions disallow storing objects.","Platební transakce nepovoluje ukládání objektů.",module,Magento_Sales
@@ -4318,7 +4309,6 @@ Tax,DPH,module,Magento_Sales
 title,název,module,Magento_Sales
 "The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","Celkem PDF model %1 musí být nebo rozšiřovat \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.",module,Magento_Sales
 "We cannot register an existing shipment","Nelze zaregistrovat existující zásilku",module,Magento_Sales
-"We found an invalid quantity to ship for item ""%1"".","Bylo nalezeno neplatné množství k zaslání položky ""%1"".",module,Magento_Sales
 "Please enter a tracking number.","Zadejte sledovací číslo prosím.",module,Magento_Sales
 "Could not delete shipment","Zásilku nelze odstranit",module,Magento_Sales
 "Could not save shipment","Zásilku nelze uložit",module,Magento_Sales
@@ -4352,7 +4342,6 @@ State/Province,"Kraj / region",module,Magento_Sales
 "You can not cancel Credit Memo","Dobropis nelze zrušit",module,Magento_Sales
 "Could not cancel creditmemo","Dobropis nelze zrušit",module,Magento_Sales
 "We cannot register an existing credit memo.","Nelze zaregistrovat existující dobropis.",module,Magento_Sales
-"The most money available to refund is %1.","Největší možná částka ke vrácení je %1.",module,Magento_Sales
 "We found an invalid quantity to invoice item ""%1"".","Bylo nalezeno neplatné množství k fakturaci položky ""%1"".",module,Magento_Sales
 "The Order State ""%1"" must not be set manually.","Situaci objednávky ""%1"" nelze nastavit ručně.",module,Magento_Sales
 "VAT Request Identifier","Identifikátor DPH požadavku",module,Magento_Sales
@@ -4367,6 +4356,8 @@ Closed,Uzavřená,module,Magento_Sales
 New,Nová,module,Magento_Sales
 "test message","zkušební zpráva",module,Magento_Sales
 "Email has not been sent","E-mail nebyl odeslán",module,Magento_Sales
+"We will authorize %1 after the payment is approved at the payment gateway.","%1 bude autorizováno až po schválení platby platební branou.",module,Magento_Sales
+"Authorized amount of %1","Autorizovaná částka z %1",module,Magento_Sales
 View,Zobrazit,module,Magento_Sales
 "Group was removed","Skupina byla odebrána",module,Magento_Sales
 "Changing address information will not recalculate shipping, tax or other order amount.","Při změně údajů adresy nebude přepočítáno přepravné, DPH a ostatní částky.",module,Magento_Sales
@@ -4787,21 +4778,15 @@ Error:,Chyba:,module,Magento_Shipping
 "contact us","kontaktujte nás",module,Magento_Shipping
 Info:,Informace:,module,Magento_Shipping
 Track:,Cesta:,module,Magento_Shipping
-Status:,Stav:,module,Magento_Shipping
 "Delivered on:","Doručeno dne:",module,Magento_Shipping
-"Signed by:",Podepsáno:,module,Magento_Shipping
-"Delivered to:","Doručeno komu:",module,Magento_Shipping
-"Shipped or billed on:","Odeslán nebo fakturován na:",module,Magento_Shipping
-"Service Type:","Typ služby:",module,Magento_Shipping
-Weight:,Hmotnost:,module,Magento_Shipping
+"There is no tracking available for this shipment.","Sledovací údaje této zásilky nejsou k dispozici.",module,Magento_Shipping
+"There is no tracking available.","Sledovací údaje nejsou k dispozici.",module,Magento_Shipping
+"Close Window","Zavřít okno",module,Magento_Shipping
 "Track history","Historie cesty",module,Magento_Shipping
 Location,Lokalita,module,Magento_Shipping
 Date,Datum,module,Magento_Shipping
 "Local Time","Místní čas",module,Magento_Shipping
 Description,Popis,module,Magento_Shipping
-"There is no tracking available for this shipment.","Sledovací údaje této zásilky nejsou k dispozici.",module,Magento_Shipping
-"There is no tracking available.","Sledovací údaje nejsou k dispozici.",module,Magento_Shipping
-"Close Window","Zavřít okno",module,Magento_Shipping
 "Save & Generate","Uložit & Generovat",module,Magento_Sitemap
 "Edit Sitemap","Upravit mapu stránek",module,Magento_Sitemap
 "New Sitemap","Nová mapa stránek",module,Magento_Sitemap
@@ -4846,7 +4831,6 @@ All,Vše,module,Magento_Sitemap
 "Requested store is inactive","Požadovaný obchod je neaktivní",module,Magento_Store
 "Requested store is not found","Požadovaný obchod nebyl nalezen",module,Magento_Store
 "Environment emulation nesting is not allowed.","Emulace vnoření prostředí není povolena.",module,Magento_Store
-"Only default scope allowed","Povolen pouze výchozí rozsah",module,Magento_Store
 "Invalid scope object","Neplatný objekt rozsahu",module,Magento_Store
 "Store with the same code","Obchod se stejným kódem",module,Magento_Store
 "Website with the same code","Web se stejným kódem",module,Magento_Store
@@ -4857,8 +4841,8 @@ All,Vše,module,Magento_Sitemap
 "Default store is inactive","Výchozí obchod je neaktivní",module,Magento_Store
 "All Store Views","Všechna zobrazení obchodu",module,Magento_Store
 "-- Please Select --","-- Vyberte --",module,Magento_Store
-"More than one default website is defined","Je definován více než jeden výchozí web",module,Magento_Store
 "Default website is not defined","Není definován výchozí web",module,Magento_Store
+"More than one default website is defined","Je definován více než jeden výchozí web",module,Magento_Store
 "no such entity exception","žádná výjimka entity",module,Magento_Store
 "Your Language:","Váš jazyk:",module,Magento_Store
 "Your Language","Váš jazyk",module,Magento_Store
@@ -5402,12 +5386,9 @@ Yes,Ano,module,Magento_Variable
 "No token found.","Žádný token nenalezen.",module,Magento_Vault
 "Wrong request.","Neplatný požadavek.",module,Magento_Vault
 "Deletion failure. Please try again.","Odstranění se nezdařilo. Zkuste to znovu prosím.",module,Magento_Vault
-"Credit Card was successfully removed","Platební karta byla odstraněna",module,Magento_Vault
-"My Credit Cards","Mé platební karty",module,Magento_Vault
 "Card Number","Číslo karty",module,Magento_Vault
 "Expiration Date","Datum expirace",module,Magento_Vault
 Type,Typ,module,Magento_Vault
-"You have no credit cards.","Žádné platební karty nejsou uloženy.",module,Magento_Vault
 ending,končící,module,Magento_Vault
 Actions,Akce,module,Magento_Vault
 Delete,Odstranit,module,Magento_Vault
@@ -5629,7 +5610,6 @@ items,položky,module,Magento_Checkout
 "Options Details","Podrobnosti možností",module,Magento_Checkout
 Remove,Odstranit,module,Magento_Checkout
 "Cart Subtotal",Mezisoučet,module,Magento_Checkout
-"No Payment Methods","Žádný způsob platby",module,Magento_Checkout
 "Payment Information","Platební údaje",module,Magento_Checkout
 "No Payment method available.","Způsob platby není k dostupný.",module,Magento_Checkout
 "You can track your order status by creating an account.","Vytvořením účtu můžete sledovat stav své objednávky.",module,Magento_Checkout
@@ -6193,10 +6173,10 @@ Debug,"Ladící režim",module,Magento_Braintree
 "3D Secure Verification","Ověření pomocí 3D Secure",module,Magento_Braintree
 Status,Stav,module,Magento_Braintree
 "PayPal Payment ID","ID platby PayPal",module,Magento_Braintree
+"Created At",Vytvořeno,module,Magento_Braintree
 "Transaction ID","ID transakce",module,Magento_Braintree
 "Order ID","ID objednávky",module,Magento_Braintree
 Type,Typ,module,Magento_Braintree
-"Created At",Vytvořeno,module,Magento_Braintree
 Amount,Množství,module,Magento_Braintree
 Currency,Měna,module,Magento_Braintree
 Select...,Zvolit...,module,Magento_Bundle
@@ -6940,6 +6920,7 @@ Condition,Podmínky,module,Magento_OfflineShipping
 Fetch,Stáhnout,module,Magento_Paypal
 Actions,Akce,module,Magento_Paypal
 Manage,Spravovat,module,Magento_Paypal
+"Email Associated with PayPal Merchant Account (Optional)","E-mail spojený s účtem PayPal obchodníka (volitelné)",module,Magento_Paypal
 "API Password","Heslo pro API",module,Magento_Paypal
 "Sandbox Mode","Režim izolovaného prostoru",module,Magento_Paypal
 "Publisher ID","ID vydavatele",module,Magento_Paypal
@@ -6989,8 +6970,6 @@ Schedule,Plánování,module,Magento_Paypal
 "Header Border Color","Barva ohraničení záhlaví",module,Magento_Paypal
 "2-pixel perimeter around the header space.","2-pixelový obvod kolem hlavičky.",module,Magento_Paypal
 "Page Background Color","Barva pozadí stránky",module,Magento_Paypal
-"Payments Advanced (Includes Express Checkout)","Rozšířené platby (zahrnuje expres pokladnu)",module,Magento_Paypal
-"Accept payments with a PCI-compliant checkout that keeps customers on your site.","Přijměte platby kompatibilní s rozhraním PCI, které udržuje zákazníky na stránce vašeho webu.",module,Magento_Paypal
 "Payments Advanced and Express Checkout","Rozšířené platby a expres pokladna",module,Magento_Paypal
 Vendor,Dodavatel,module,Magento_Paypal
 User,Uživatel,module,Magento_Paypal
@@ -7004,19 +6983,14 @@ User,Uživatel,module,Magento_Paypal
 "Require CVV Entry","Vyžadovat CVV údaj",module,Magento_Paypal
 "Send Email Confirmation","Odeslat potvrzení e-mailem",module,Magento_Paypal
 "URL method for Cancel URL and Return URL","URL způsob pro rušící URL a návratovou URL",module,Magento_Paypal
-"Payflow Link (Includes Express Checkout)","Payflow Link (zahrnuje expres pokladnu)",module,Magento_Paypal
-"Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.","Spojte svůj obchodní účet s PCI kompatibilní branou, která umožní zákazníkům platit bez opuštění vašich stránek.",module,Magento_Paypal
 "Payflow Link and Express Checkout","Payflow Link a expres pokladna",module,Magento_Paypal
-"Email Associated with PayPal Merchant Account (Optional)","E-mail spojený s účtem PayPal obchodníka (volitelné)",module,Magento_Paypal
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Pokud máte více uživatelů na vašem účtu, zadejte znovu vaše prodejce/obchodník přihlášení zde.",module,Magento_Paypal
 "Enable Payflow Link","Povolit Payflow Link",module,Magento_Paypal
 "Enable Express Checkout","Povolit expres pokladnu",module,Magento_Paypal
-"Accept payments with a PCI compliant checkout that keeps customers on your site.","Přijměte platby kompatibilní s rozhraním PCI, které udržuje zákazníky na stránce vašeho webu.",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro Hosted Solution","Základní nastavení - PayPal Payments Pro Hosted Solution",module,Magento_Paypal
 "Display Express Checkout in the Payment Information step","Zobrazit expres pokladnu v kroku platebních údajů",module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout","Website Payments Pro Hosted Solution a expres pokladna",module,Magento_Paypal
 "Basic Settings - PayPal Website Payments Pro Hosted Solution","Základní nastavení - PayPal Website Payments Pro Hosted Solution",module,Magento_Paypal
-"Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.","Spojte svůj obchodní účet s plně přizpůsobitelnou branou, která umožní zákazníkům platit bez opuštění vašich stránek.",module,Magento_Paypal
 "Credit Card Settings","Nastavení platební karty",module,Magento_Paypal
 "Allowed Credit Card Types","Povolené typy platebních karet",module,Magento_Paypal
 "CVV and AVS Settings","CVV a AVS nastavení",module,Magento_Paypal
@@ -7025,7 +6999,6 @@ User,Uživatel,module,Magento_Paypal
 "AVS Zip Does Not Match","PSČ AVS se neshoduje",module,Magento_Paypal
 "International AVS Indicator Does Not Match","Mezinárodní AVS indikátor se neshoduje",module,Magento_Paypal
 "Card Security Code Does Not Match","Bezpečnostní kód karty se neshoduje",module,Magento_Paypal
-"Payflow Pro (Includes Express Checkout)","Payflow Pro (zahrnuje expres pokladnu)",module,Magento_Paypal
 "Payflow Pro and Express Checkout","Payflow Pro a expres pokladna",module,Magento_Paypal
 "Persistent Shopping Cart","Trvalý nákupní košík",module,Magento_Persistent
 "General Options","Základní údaje",module,Magento_Persistent
