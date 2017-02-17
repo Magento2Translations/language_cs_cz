@@ -6,10 +6,10 @@ This translation is usefull for people living in the Czech Republic (Česká rep
 For our other language packs look at the [Magento2Translations](http://magento2translations.github.io/) page.
 
 # Version & progress
-This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/cs#/Head) at Crowdin and based on the Magento 2.1.1 sourcefiles.
-There have been  7585 strings translated of the 8412 strings in the Magento source.
+This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/cs#/Head) at Crowdin and based on the Magento 2.1.4 sourcefiles.
+There have been  7558 strings translated of the 8458 strings in the Magento source.
 
-Translation progress:![Progress](http://progressed.io/bar/90)
+Translation progress:![Progress](http://progressed.io/bar/89)
 
 # Instalation
 ## Via composer
