@@ -1468,6 +1468,7 @@ View,Zobrazit,module,Magento_Cms
 [GLOBAL],[GLOBÁLNÍ],module,Magento_Config
 [WEBSITE],[WEB],module,Magento_Config
 "[STORE VIEW]",[ZOBRAZENÍ],module,Magento_Config
+"Use system value","Použít systémovou hodnotu",module,Magento_Config
 "Use Default","Použít výchozí",module,Magento_Config
 "Use Website","Použít web",module,Magento_Config
 Add,Přidat,module,Magento_Config
