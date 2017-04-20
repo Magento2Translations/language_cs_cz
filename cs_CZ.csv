@@ -5580,6 +5580,7 @@ Cancel,Zrušit,module,Magento_Checkout
 Login,Přihlášení,module,Magento_Checkout
 item,položka,module,Magento_Checkout
 items,položky,module,Magento_Checkout
+"Go to Checkout","K pokladně",module,Magento_Checkout
 "See Details","Zobrazit podrobnosti",module,Magento_Checkout
 "Options Details","Podrobnosti možností",module,Magento_Checkout
 Remove,Odstranit,module,Magento_Checkout
