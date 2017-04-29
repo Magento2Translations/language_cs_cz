@@ -5605,6 +5605,7 @@ Next,Další,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Nabídky k této objednávce nejsou momentálně dostupné",module,Magento_Checkout
 "Order Summary","Souhrn objednávky",module,Magento_Checkout
 "Item in Cart","Položka v košíku",module,Magento_Checkout
+"Items in Cart","Položky v košíku",module,Magento_Checkout
 "View Details","Zobrazit podrobnosti",module,Magento_Checkout
 "Contact Form","Kontaktní formulář",module,Magento_Contact
 "Name: %name","Jméno: %name",module,Magento_Contact
