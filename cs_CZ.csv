@@ -5711,10 +5711,12 @@ Password:,Heslo:,module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Pokud jste o změnu nežádali, tuto zprávu můžete ignorovat a vaše heslo zůstane stejné.",module,Magento_Customer
 "Your %store_name password has been changed","Vaše heslo v %store_name bylo změněno",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","Obdrželi jsme požadavek na změnu následujících údajů spojené s vaším účtem v %store_name: heslo.",module,Magento_Customer
+"Checkout out as a new customer","Objednat jako nový zákazník",module,Magento_Customer
 "Creating an account has many benefits:","Registrace přináší řadu výhod:",module,Magento_Customer
 "See order and shipping status","Sledování stavu objednávky",module,Magento_Customer
 "Track order history","Sledování historie objednávek",module,Magento_Customer
 "Check out faster","Rychlejší proces objednání",module,Magento_Customer
+"Checkout out using your account","Objednat pomocí svého účtu",module,Magento_Customer
 "Email Address","E-mailová adresa",module,Magento_Customer
 "Currency Update Warnings","Varování aktualizace kurzu",module,Magento_Directory
 Footer,Zápatí,module,Magento_Email
@@ -6691,6 +6693,7 @@ Currency,Měna,module,Magento_CurrencySymbol
 "Leave empty for default (15 minutes).","Pro výchozích 15 minut nechte údaj prázdný.",module,Magento_Customer
 "Customer Notification","Oznámení pro zákazníka",module,Magento_Customer
 "Assign a Customer Group","Přiřadit skupinu zákazníků",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","Skutečně chcete zvolené zákazníky přiřadit k nové skupině?",module,Magento_Customer
 "Customer Grid","Tabulka zákazníků",module,Magento_Customer
 "Rebuild Customer grid index","Přeindexovat tabulku zákazníků",module,Magento_Customer
 Group,Skupina,module,Magento_Customer
