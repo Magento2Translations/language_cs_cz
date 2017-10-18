@@ -905,7 +905,7 @@ Action,Akce,module,Magento_Catalog
 "Shop By","Filtr produktů",module,Magento_Catalog
 "Shopping Options","Zvolte parametry:",module,Magento_Catalog
 "Compare Products","Porovnání produktů",module,Magento_Catalog
-"Print This Page","Tisknout tuto stránku",module,Magento_Catalog
+"Print This Page","Vytisknout tuto stránku",module,Magento_Catalog
 "Remove Product","Odstranit produkt",module,Magento_Catalog
 "Add to Cart","Do košíku",module,Magento_Catalog
 "In stock",Skladem,module,Magento_Catalog
@@ -1141,7 +1141,7 @@ System,Systém,module,Magento_CurrencySymbol
 "Customer address id column is not specified","Není zadáno ID sloupce adresy zákazníka",module,Magento_CustomerImportExport
 "Orphan rows that will be skipped due default row errors","Osiřelé řádky, které bude vynechány kvůli chybám",module,Magento_CustomerImportExport
 "Invalid value in Store column (store does not exists?)","Neplatná hodnota v sloupci store (obchod neexistuje?)",module,Magento_CustomerImportExport
-"You subscribe to our newsletter.","Přihlásit se k odběru zpravodaje.",module,Magento_Customer
+"You subscribe to our newsletter.","Jste přihlášen k odběru newsletteru.",module,Magento_Customer
 "You have not set a default shipping address.","Výchozí dodací adresa zatím nebyla nastavena.",module,Magento_Customer
 "You have not set a default billing address.","Výchozí fakturační adresa zatím nebyla nastavena.",module,Magento_Customer
 "Address Book",Adresář,module,Magento_Customer
@@ -1163,12 +1163,11 @@ Action,Akce,module,Magento_Customer
 Configure,Nastavit,module,Magento_Customer
 Delete,Smazat,module,Magento_Customer
 "Shopping Cart from %1","Nákupní košík z %1",module,Magento_Customer
-Newsletter,Zpravodaj,module,Magento_Customer
-"Newsletter Information","Nastavení zpravodaje",module,Magento_Customer
+"Newsletter Information","Informace o newsletteru",module,Magento_Customer
 "Subscribed to Newsletter","Přihlášeni k odběru zpravodaje",module,Magento_Customer
 "Last Date Subscribed","Naposledy přihlášen",module,Magento_Customer
 "Last Date Unsubscribed","Naposledy odhlášen",module,Magento_Customer
-"No Newsletter Found","Žádný zpravodaj nebyl nalezen",module,Magento_Customer
+"No Newsletter Found","Žádný newsletter nebyl nalezen",module,Magento_Customer
 "Start date",Začátek,module,Magento_Customer
 "End Date","Datum ukončení",module,Magento_Customer
 "Receive Date","Datum přijetí",module,Magento_Customer
@@ -1317,7 +1316,7 @@ Change,Změnit,module,Magento_Customer
 "Default Shipping Address","Výchozí doručovací adresa",module,Magento_Customer
 "Contact Information","Kontaktní informace",module,Magento_Customer
 "Change Password","Změnit heslo",module,Magento_Customer
-Newsletters,Novinky,module,Magento_Customer
+Newsletters,Newslettery,module,Magento_Customer
 "Default Addresses","Výchozí adresy",module,Magento_Customer
 "Change Billing Address","Změnit fakturační adresu",module,Magento_Customer
 "You have no default billing address in your address book.","V adresáři nemáte žádnou výchozí fakturační adresu.",module,Magento_Customer
@@ -1352,7 +1351,7 @@ Login,Přihlášení,module,Magento_Customer
 "Forgot Your Password?","Zapomněli jste heslo?",module,Magento_Customer
 "Subscription option","Nastavení odběru",module,Magento_Customer
 "General Subscription","Obecný zpravodaj",module,Magento_Customer
-"Sign Up for Newsletter","Přihlásit k odběru zpravodaje",module,Magento_Customer
+"Sign Up for Newsletter","Přihlásit se k odběru newsletteru",module,Magento_Customer
 "Address Information","Údaje adresy",module,Magento_Customer
 "Confirm Password","Potvrdit heslo",module,Magento_Customer
 "New Customers","Noví zákazníci",module,Magento_Customer
@@ -1873,9 +1872,9 @@ Items,Položky,module,Magento_Multishipping
 Back,Zpět,module,Magento_Newsletter
 Reset,Obnovit,module,Magento_Newsletter
 "Preview Template","Náhled šablony",module,Magento_Newsletter
-"Save Newsletter","Uložit zpravodaj",module,Magento_Newsletter
+"Save Newsletter","Uložit newsletter",module,Magento_Newsletter
 "Save and Resume",Použít,module,Magento_Newsletter
-"View Newsletter","Zobrazit zpravodaj",module,Magento_Newsletter
+"View Newsletter","Zobrazit newsletter",module,Magento_Newsletter
 "Edit Newsletter","Upravit zpravodaj",module,Magento_Newsletter
 "Queue Information","Údaje fronty",module,Magento_Newsletter
 "Queue Date Start","Datum spuštění fronty",module,Magento_Newsletter
@@ -1884,7 +1883,7 @@ Subject,Předmět,module,Magento_Newsletter
 "Sender Name","Jméno odesílatele",module,Magento_Newsletter
 "Sender Email","E-mail odesílatele",module,Magento_Newsletter
 Message,Zpráva,module,Magento_Newsletter
-"Newsletter Styles","Styly zpravodaje",module,Magento_Newsletter
+"Newsletter Styles","Styly newsletteru",module,Magento_Newsletter
 Start,Zahájit,module,Magento_Newsletter
 Pause,Pozastavit,module,Magento_Newsletter
 "Do you really want to cancel the queue?","Skutečně chcete frontu zrušit?",module,Magento_Newsletter
@@ -1892,14 +1891,14 @@ Cancel,Zrušit,module,Magento_Newsletter
 Resume,Souhrn,module,Magento_Newsletter
 Preview,Náhled,module,Magento_Newsletter
 "Add New Template","Přidat novou šablonu",module,Magento_Newsletter
-"Newsletter Templates","Šablony zpravodaje",module,Magento_Newsletter
+"Newsletter Templates","Šablony newsletteru",module,Magento_Newsletter
 "Convert to Plain Text","Převést na prostý text",module,Magento_Newsletter
 "Return HTML Version","Vrátit HTML verzi",module,Magento_Newsletter
 "Delete Template","Odstranit šablonu",module,Magento_Newsletter
 "Save As","Uložit jako",module,Magento_Newsletter
 "Save Template","Uložit šablonu",module,Magento_Newsletter
-"Edit Newsletter Template","Upravit šablonu zpravodaje",module,Magento_Newsletter
-"New Newsletter Template","Nová šablona zpravodaje",module,Magento_Newsletter
+"Edit Newsletter Template","Upravit šablonu newsletteru",module,Magento_Newsletter
+"New Newsletter Template","Nová šablona newsletteru",module,Magento_Newsletter
 "Template Information","Nastavení šablony",module,Magento_Newsletter
 "Template Name","Název šablony",module,Magento_Newsletter
 "Template Subject","Předmět šablony",module,Magento_Newsletter
@@ -1914,22 +1913,21 @@ Sender,Odesílatel,module,Magento_Newsletter
 Action,Akce,module,Magento_Newsletter
 "We unsubscribed the people you identified.","Označení lidé odběratelé odhlášeni.",module,Magento_Newsletter
 "The problems you identified have been deleted.","Označené problémy byly odstraněny.",module,Magento_Newsletter
-"Newsletter Problems Report","Přehled problémů zpravodaje",module,Magento_Newsletter
-"Newsletter Problem Reports","Přehledy problémů zpravodaje",module,Magento_Newsletter
-"Newsletter Queue","Fronta zpravodaje",module,Magento_Newsletter
+"Newsletter Problems Report","Přehled problémů newsletteru",module,Magento_Newsletter
+"Newsletter Problem Reports","Přehledy problému newsletteru",module,Magento_Newsletter
+"Newsletter Queue","Fronta newsletteru",module,Magento_Newsletter
 "Edit Queue","Upravit frontu",module,Magento_Newsletter
-"Please correct the newsletter template and try again.","Opravte šablonu zpravodaje a zkuste to znovu.",module,Magento_Newsletter
-"Newsletter Subscribers","Odběratelé zpravodaje",module,Magento_Newsletter
-Newsletter,Zpravodaj,module,Magento_Newsletter
+"Please correct the newsletter template and try again.","Opravte šablonu newsletteru a zkuste to znovu.",module,Magento_Newsletter
+"Newsletter Subscribers","Odběratelé newsletteru",module,Magento_Newsletter
 Subscribers,Odběratelé,module,Magento_Newsletter
 "Please select one or more subscribers.","Zvolte alespoň jednoho odběratele.",module,Magento_Newsletter
 "A total of %1 record(s) were updated.","Bylo upraveno celkem %1 záznam(ů).",module,Magento_Newsletter
-"The newsletter template has been deleted.","Šablona zpravodaje byla odstraněna.",module,Magento_Newsletter
+"The newsletter template has been deleted.","Šablona newsletteru byla odstraněna.",module,Magento_Newsletter
 "Edit Template","Upravit šablonu",module,Magento_Newsletter
 "New Template","Nová šablona",module,Magento_Newsletter
-"Create Newsletter Template","Vytvořit šablonu zpravodaje",module,Magento_Newsletter
-"The newsletter template has been saved.","Šablona zpravodaje byla uložena.",module,Magento_Newsletter
-"Newsletter Subscription","Odběr zpravodaje",module,Magento_Newsletter
+"Create Newsletter Template","Vytvořit šablonu newsletteru",module,Magento_Newsletter
+"The newsletter template has been saved.","Šablona newsletteru byla uložena.",module,Magento_Newsletter
+"Newsletter Subscription","Odběr newsletteru",module,Magento_Newsletter
 "Something went wrong while saving your subscription.","Při ukládání vašeho odběru zpravodaje nastala chyba.",module,Magento_Newsletter
 "We saved the subscription.","Odběr zpravodaje byl uložen.",module,Magento_Newsletter
 "We removed the subscription.","Odběr zpravodaje byl zrušen.",module,Magento_Newsletter
@@ -1952,7 +1950,7 @@ Paused,Pozastaveno,module,Magento_Newsletter
 "We cannot mark as received subscriber.","Odběratele nelze označit jako příjemce.",module,Magento_Newsletter
 "Duplicate template code","Duplikovat kód šablony",module,Magento_Newsletter
 "Choose Store View:","Zvolte zobrazení obchodu:",module,Magento_Newsletter
-"Newsletter Message Preview","Náhled zprávy zpravodaje",module,Magento_Newsletter
+"Newsletter Message Preview","Náhled zprávy newsletteru",module,Magento_Newsletter
 "Add to Queue","Přidat do fronty",module,Magento_Newsletter
 "Are you sure that you want to strip all tags?","Skutečně chcete odebrat všechny tagy?",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Přihlaste se k odběru zpravodaje:",module,Magento_Newsletter
@@ -2754,7 +2752,7 @@ Message,Zpráva,module,Magento_Sales
 "* - Enter custom price excluding tax","* - Zadejte vlastní cenu bez DPH",module,Magento_Sales
 Configure,Nastavit,module,Magento_Sales
 "This product does not have any configurable options","Tento produkt nemá žádné konfigurovatelné parametry",module,Magento_Sales
-"Newsletter Subscription","Odběr zpravodaje",module,Magento_Sales
+"Newsletter Subscription","Odběr newsletteru",module,Magento_Sales
 "Add Selected Product(s) to Order","Přidat zvolené produkty k objednávce",module,Magento_Sales
 Product,Produkt,module,Magento_Sales
 Price,Cena,module,Magento_Sales
@@ -4309,8 +4307,8 @@ Contacts,Kontakty,module,Magento_Contact
 "Leave empty for default (15 minutes).","Pro výchozích 15 minut nechte údaj prázdný.",module,Magento_Customer
 Group,Skupina,module,Magento_Customer
 "Add New Customer","Přidat nového zákazníka",module,Magento_Customer
-"Subscribe to Newsletter","Přihlásit k odběru zpravodaje",module,Magento_Customer
-"Unsubscribe from Newsletter","Odhlásit odběr zpravodaje",module,Magento_Customer
+"Subscribe to Newsletter","Přihlásit se k odběru newsletteru",module,Magento_Customer
+"Unsubscribe from Newsletter","Odhlásit odběr newsletteru",module,Magento_Customer
 "Assign a Customer Group","Přiřadit skupinu zákazníků",module,Magento_Customer
 Phone,Telefon,module,Magento_Customer
 ZIP,PSČ,module,Magento_Customer
