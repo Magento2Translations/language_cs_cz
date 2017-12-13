@@ -1362,6 +1362,7 @@ Checkout,Pokladna,module,Magento_Checkout
 "This quote item does not exist.","Tato požadovaná položka neexistuje.",module,Magento_Checkout
 "Display number of items in cart","Zobrazený počet produktů v košíku",module,Magento_Checkout
 "Display item quantities","Zobrazit počet položek",module,Magento_Checkout
+"Unable to place order. Please try again later.","Objednávku se nepodařilo odeslat, zkuste to prosím později.",module,Magento_Checkout
 "Shipping address is not set","Doručovací adresa není nastavena",module,Magento_Checkout
 "Unable to save shipping information. Please check input data.","Způsob přepravy nelze uložit. Zkontrolujte zadané údaje.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","Přepravce s tímto způsobem nebyl nalezen: %1, %2",module,Magento_Checkout
@@ -1496,6 +1497,7 @@ Delete,Smazat,module,Magento_Cms
 "Delete ${ $.$data.title }","Odstranit ${ $.$data.title }",module,Magento_Cms
 "Are you sure you wan't to delete a ${ $.$data.title } record?","Skutečně chcete odstranit záznam ${ $.$data.title }?",module,Magento_Cms
 "Delete ""${ $.$data.title }""","Odstranit ""${ $.$data.title }""",module,Magento_Cms
+"Are you sure you wan't to delete a ""${ $.$data.title }"" record?","Skutečně chcete odstranit ""${ $.$data.title }"" záznam?",module,Magento_Cms
 View,Zobrazit,module,Magento_Cms
 "No files found","Žádné soubory nebyly nalezeny",module,Magento_Cms
 "Browse Files...","Procházet soubory...",module,Magento_Cms
@@ -1613,6 +1615,7 @@ Summary,Souhrn,module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Je třeba zvolit jeden z parametrů produktu.",module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.","Některé údaje varianty nejsou správně zvoleny.",module,Magento_ConfigurableProduct
 "Configuration must have specified attributes","Konfigurace musí mít zvolené atributy",module,Magento_ConfigurableProduct
+"Configurable product ""%1"" does not have sub-products","Konfigurovatelný produkt ""%1"" nemá žádné přiřazené produkty",module,Magento_ConfigurableProduct
 "Type %1 is not an instance of %2","Typ %1 není instancí %2",module,Magento_ConfigurableProduct
 "Choose Affected Attribute Set","Zvolte sadu atributů",module,Magento_ConfigurableProduct
 "Add configurable attributes to the current Attribute Set","Přidat konfigurovatelné atributy k aktuální sadě atributů",module,Magento_ConfigurableProduct
@@ -3506,6 +3509,7 @@ Subtotal,Mezisoučet,module,Magento_Quote
 "Cannot assign customer to the given cart. The cart belongs to different store.","Ke košíku nelze zákazníka přiřadit. Košík patří do jiného obchodu.",module,Magento_Quote
 "Cannot assign customer to the given cart. The cart is not anonymous.","Ke košíku nelze zákazníka přiřadit. Košík není anonymní.",module,Magento_Quote
 "Cannot assign customer to the given cart. Customer already has active cart.","Ke košíku nelze zákazníka přiřadit. Zákazník již má aktivní košík.",module,Magento_Quote
+"Unable to place order. Please try again later.","Objednávku se nepodařilo odeslat, zkuste to prosím později.",module,Magento_Quote
 "This item price or quantity is not valid for checkout.","Tato cena nebo množství položky není pro pokladnu platná.",module,Magento_Quote
 "Please check the shipping address information. %1","Zkontrolujte prosím údaje doručovací adresy. %1",module,Magento_Quote
 "Please specify a shipping method.","Zvolte způsob přepravy prosím.",module,Magento_Quote
@@ -6291,6 +6295,7 @@ Stock,Zásoba,module,Magento_CatalogInventory
 "Use Config Settings","Použít systémové nastavení",module,Magento_CatalogInventory
 "Qty Uses Decimals","Množství používá desetiny",module,Magento_CatalogInventory
 "Allow Multiple Boxes for Shipping","Povolit násobné zásilky pro přepravu",module,Magento_CatalogInventory
+"Use Deferred Stock Update","Použít odloženou aktualizaci zásob",module,Magento_CatalogInventory
 "Catalog Rule Product","Produkt cenového pravidla",module,Magento_CatalogRule
 "Indexed rule/product association","Index vztahů pravidel a produktů",module,Magento_CatalogRule
 "Catalog Product Rule","Pravidlo produktu",module,Magento_CatalogRule
@@ -6993,6 +6998,9 @@ Condition,Podmínky,module,Magento_OfflineShipping
 Fetch,Stáhnout,module,Magento_Paypal
 Actions,Akce,module,Magento_Paypal
 Manage,Spravovat,module,Magento_Paypal
+"PayPal Payment Gateways","Platební brány PayPal",module,Magento_Paypal
+"PayPal Payment Solutions","Platební řešení PayPal",module,Magento_Paypal
+"Email Associated with PayPal Merchant Account","E-mail spojený s účtem PayPal obchodníka",module,Magento_Paypal
 "API Password","Heslo pro API",module,Magento_Paypal
 "Sandbox Mode","Režim izolovaného prostoru",module,Magento_Paypal
 "Publisher ID","ID vydavatele",module,Magento_Paypal
@@ -7070,6 +7078,7 @@ User,Uživatel,module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout","Website Payments Pro Hosted Solution a expres pokladna",module,Magento_Paypal
 "Basic Settings - PayPal Website Payments Pro Hosted Solution","Základní nastavení - PayPal Website Payments Pro Hosted Solution",module,Magento_Paypal
 "Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.","Spojte svůj obchodní účet s plně přizpůsobitelnou branou, která umožní zákazníkům platit bez opuštění vašich stránek.",module,Magento_Paypal
+"Vault enabled","Trezor zapnut",module,Magento_Paypal
 "Credit Card Settings","Nastavení platební karty",module,Magento_Paypal
 "Allowed Credit Card Types","Povolené typy platebních karet",module,Magento_Paypal
 "CVV and AVS Settings","CVV a AVS nastavení",module,Magento_Paypal
