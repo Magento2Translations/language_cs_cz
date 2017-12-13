@@ -565,6 +565,7 @@ Always,Vždy,module,Magento_Captcha
 "Entity type model '%1' is not found","Typ entity modelu '%1' nebyl nalezen",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Typ modelu entity musí být instancí z \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "There are no product types available for export.","K exportu nejsou dostupné žádné typy produktů.",module,Magento_CatalogImportExport
+"Entity type model must be an instance of '%1'","Model typu entity musí být instancí '%1'",module,Magento_CatalogImportExport
 "Category ""%1"" has not been created.","Kategorii ""%1"" nelze vytvořit.",module,Magento_CatalogImportExport
 "File directory '%1' is not readable.","Adresář souboru '%1' není čitelný.",module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","Adresář souboru '%1' není zapisovatelný.",module,Magento_CatalogImportExport
@@ -1478,6 +1479,7 @@ Delete,Smazat,module,Magento_Cms
 "Delete ${ $.$data.title }","Odstranit ${ $.$data.title }",module,Magento_Cms
 "Are you sure you wan't to delete a ${ $.$data.title } record?","Skutečně chcete odstranit záznam ${ $.$data.title }?",module,Magento_Cms
 "Delete ""${ $.$data.title }""","Odstranit ""${ $.$data.title }""",module,Magento_Cms
+"Are you sure you wan't to delete a ""${ $.$data.title }"" record?","Skutečně chcete odstranit ""${ $.$data.title }"" záznam?",module,Magento_Cms
 View,Zobrazit,module,Magento_Cms
 "No files found","Žádné soubory nebyly nalezeny",module,Magento_Cms
 "Browse Files...","Procházet soubory...",module,Magento_Cms
@@ -3445,6 +3447,7 @@ Description,Popis,module,Magento_ProductVideo
 "Hide from Product Page","Skrýt na stránce produktu",module,Magento_ProductVideo
 "YouTube and Vimeo supported.","Podporováno YouTube a Vimeo.",module,Magento_ProductVideo
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeo je podporováno.<br />Před vložením YouTube videa zadejte nejdříve <a href=""%1"">YouTube API klíč</a>.",module,Magento_ProductVideo
+"Disallowed file type.","Nepodporovaný typ souboru.",module,Magento_ProductVideo
 "Could not get preview image information. Please check your connection and try again.","Nelze získat údaje náhledového obrázku. Zkontrolujte připojení a akci opakujte.",module,Magento_ProductVideo
 "Add Video","Přidat Video",module,Magento_ProductVideo
 "Browse to find or drag image here","Procházet počítač nebo obrázek přetáhněte sem",module,Magento_ProductVideo
@@ -4389,7 +4392,10 @@ Closed,Uzavřená,module,Magento_Sales
 New,Nová,module,Magento_Sales
 "test message","zkušební zpráva",module,Magento_Sales
 "Email has not been sent","E-mail nebyl odeslán",module,Magento_Sales
+"Authorized amount of %1.","Autorizovaná částka z %1.",module,Magento_Sales
 "We will authorize %1 after the payment is approved at the payment gateway.","%1 bude autorizováno až po schválení platby platební branou.",module,Magento_Sales
+"Authorized amount of %1. Order is suspended as its authorizing amount %1 is suspected to be fraudulent.","Autorizovaná částka z %1. Objednávka je pozastavena, částka %1 vypadá jako podvod.",module,Magento_Sales
+"Captured amount of %1 online.","Zachycená částka z %1 online.",module,Magento_Sales
 "Authorized amount of %1","Autorizovaná částka z %1",module,Magento_Sales
 "Something went wrong","Něco se pokazilo",module,Magento_Sales
 View,Zobrazit,module,Magento_Sales
@@ -5032,6 +5038,7 @@ Total,Celkem,module,Magento_Tax
 None,Žádné,module,Magento_Tax
 "Including and Excluding Tax","Bez DPH i s DPH",module,Magento_Tax
 "Click on the link to <a href=""%1"">ignore this notification</a>","Chcete-li toto oznámení ignorovat, klikněte na <a href=""%1"">tento odkaz</a>.",module,Magento_Tax
+"With customer tax applied “Before Discount”, the final discount calculation may not match customers’ expectations.","Při nastavení výpočtu DPH zákazníka ""Před slevou"" nemusí výsledná sleva odpovídat očekávání zákazníků.",module,Magento_Tax
 "Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","Přejděte do <a href=""%1"">Nastavení DPH</a> a upravte nastavení.",module,Magento_Tax
 "Invalid type of tax class ""%1""","Neplatný typ třídy DPH ""%1""",module,Magento_Tax
 "Updating classType is not allowed.","Úprava ClassType není povolena.",module,Magento_Tax
@@ -5639,6 +5646,7 @@ Cancel,Zrušit,module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","Pokud jste u nás registrován, přihlaste se nebo pokračujte jako host.",module,Magento_Checkout
 Login,Přihlášení,module,Magento_Checkout
 Close,Zavřít‏,module,Magento_Checkout
+of,z,module,Magento_Checkout
 "Item in Cart","Položka v košíku",module,Magento_Checkout
 "Items in Cart","Položky v košíku",module,Magento_Checkout
 "Go to Checkout","K pokladně",module,Magento_Checkout
@@ -6273,6 +6281,7 @@ Stock,Zásoba,module,Magento_CatalogInventory
 "Use Config Settings","Použít systémové nastavení",module,Magento_CatalogInventory
 "Qty Uses Decimals","Množství používá desetiny",module,Magento_CatalogInventory
 "Allow Multiple Boxes for Shipping","Povolit násobné zásilky pro přepravu",module,Magento_CatalogInventory
+"Use Deferred Stock Update","Použít odloženou aktualizaci zásob",module,Magento_CatalogInventory
 "Catalog Rule Product","Produkt cenového pravidla",module,Magento_CatalogRule
 "Indexed rule/product association","Index vztahů pravidel a produktů",module,Magento_CatalogRule
 "Catalog Product Rule","Pravidlo produktu",module,Magento_CatalogRule
@@ -6623,6 +6632,7 @@ Currency,Měna,module,Magento_CurrencySymbol
 "Maximum Login Failures to Lockout Account","Počet chybných pokusů o přihlášení do uzamčení účtu",module,Magento_Customer
 "Use 0 to disable account locking.","Chcete-li zamykání účtů zakázat, zadejte 0.",module,Magento_Customer
 "Lockout Time (minutes)","Doba uzamčení (minuty)",module,Magento_Customer
+"Account Information Options","Volby nastavení účtu",module,Magento_Customer
 "Change Email Template","Změna e-mailové šablony",module,Magento_Customer
 "Change Email and Password Template","Změna šablony e-mailu a hesla",module,Magento_Customer
 "Name and Address Options","Nastavení jména a adresy",module,Magento_Customer
