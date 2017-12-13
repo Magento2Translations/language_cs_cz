@@ -1479,6 +1479,7 @@ Delete,Smazat,module,Magento_Cms
 "Delete ${ $.$data.title }","Odstranit ${ $.$data.title }",module,Magento_Cms
 "Are you sure you wan't to delete a ${ $.$data.title } record?","Skutečně chcete odstranit záznam ${ $.$data.title }?",module,Magento_Cms
 "Delete ""${ $.$data.title }""","Odstranit ""${ $.$data.title }""",module,Magento_Cms
+"Are you sure you wan't to delete a ""${ $.$data.title }"" record?","Skutečně chcete odstranit ""${ $.$data.title }"" záznam?",module,Magento_Cms
 View,Zobrazit,module,Magento_Cms
 "No files found","Žádné soubory nebyly nalezeny",module,Magento_Cms
 "Browse Files...","Procházet soubory...",module,Magento_Cms
@@ -4393,7 +4394,10 @@ Closed,Uzavřená,module,Magento_Sales
 New,Nová,module,Magento_Sales
 "test message","zkušební zpráva",module,Magento_Sales
 "Email has not been sent","E-mail nebyl odeslán",module,Magento_Sales
+"Authorized amount of %1.","Autorizovaná částka z %1.",module,Magento_Sales
 "We will authorize %1 after the payment is approved at the payment gateway.","%1 bude autorizováno až po schválení platby platební branou.",module,Magento_Sales
+"Authorized amount of %1. Order is suspended as its authorizing amount %1 is suspected to be fraudulent.","Autorizovaná částka z %1. Objednávka je pozastavena, částka %1 vypadá jako podvod.",module,Magento_Sales
+"Captured amount of %1 online.","Zachycená částka z %1 online.",module,Magento_Sales
 "Authorized amount of %1","Autorizovaná částka z %1",module,Magento_Sales
 "Requested product doesn't exist","Požadovaný produkt neexistuje",module,Magento_Sales
 "Something went wrong","Něco se pokazilo",module,Magento_Sales
@@ -6278,6 +6282,7 @@ Stock,Zásoba,module,Magento_CatalogInventory
 "Use Config Settings","Použít systémové nastavení",module,Magento_CatalogInventory
 "Qty Uses Decimals","Množství používá desetiny",module,Magento_CatalogInventory
 "Allow Multiple Boxes for Shipping","Povolit násobné zásilky pro přepravu",module,Magento_CatalogInventory
+"Use Deferred Stock Update","Použít odloženou aktualizaci zásob",module,Magento_CatalogInventory
 "Catalog Rule Product","Produkt cenového pravidla",module,Magento_CatalogRule
 "Indexed rule/product association","Index vztahů pravidel a produktů",module,Magento_CatalogRule
 "Catalog Product Rule","Pravidlo produktu",module,Magento_CatalogRule
