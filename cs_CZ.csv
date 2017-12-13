@@ -1762,8 +1762,8 @@ System,Systém,module,Magento_CurrencySymbol
 "Please enter a password with a valid length.","Zadejte heslo s platnou délkou prosím.",module,Magento_CustomerImportExport
 "Sign Out","Odhlásit se",module,Magento_Customer
 "Sign In","Přihlásit se",module,Magento_Customer
-"You are subscribed to our newsletter.","Jste přihlášen k odběru novinek.",module,Magento_Customer
-"You aren't subscribed to our newsletter.","Nejste přihlášen k odběru newsletteru.",module,Magento_Customer
+"You are subscribed to our newsletter.","Jste přihlášeni k odběru zpravodaje.",module,Magento_Customer
+"You aren't subscribed to our newsletter.","Nejste přihlášeni k odběru zpravodaje.",module,Magento_Customer
 "You have not set a default shipping address.","Výchozí dodací adresa zatím nebyla nastavena.",module,Magento_Customer
 "You have not set a default billing address.","Výchozí fakturační adresa zatím nebyla nastavena.",module,Magento_Customer
 "Address Book",Adresář,module,Magento_Customer
@@ -5827,6 +5827,8 @@ Footer,Zápatí,theme,frontend/Magento/luma
 "Sorry, but something went wrong. Please contact the seller.","Omlouváme se, ale něco se pokazilo. Kontaktujte naší zákaznickou linku.",module,Magento_Authorizenet
 "We could not detect a size.","Velikost nebylo možné zjistit.",module,Magento_Backend
 "We don't recognize or support this file extension type.","Nelze rozpoznat nebo není podporována tato přípona souboru.",module,Magento_Backend
+"Warning message",Upozornění,module,Magento_Backend
+"This operation can take a long time","Tato operace může trvat dlouho",module,Magento_Backend
 "This payment is not available","Tato platba není k dispozici",module,Magento_Braintree
 YY,RR,module,Magento_Braintree
 "Please try again with another form of payment.","Zopakujte znovu prosím s jinou formou platby.",module,Magento_Braintree
@@ -6036,6 +6038,7 @@ Content,Obsah,module,Magento_Backend
 Elements,Prvky,module,Magento_Backend
 Design,Vzhled,module,Magento_Backend
 Schedule,Plánování,module,Magento_Backend
+"Content translation","Překlad obsahu",module,Magento_Backend
 Settings,Nastavení,module,Magento_Backend
 Attributes,Atributy,module,Magento_Backend
 "Other Settings","Další nastavení",module,Magento_Backend
@@ -6247,6 +6250,7 @@ Select...,Zvolit...,module,Magento_Bundle
 Status,Stav,module,Magento_Bundle
 Thumbnail,Náhled,module,Magento_Bundle
 Type,Typ,module,Magento_Bundle
+"Special Price","Akční cena",module,Magento_Bundle
 "Enable CAPTCHA in Admin","Zapnout CAPTCHA ve správě",module,Magento_Captcha
 Font,Písmo,module,Magento_Captcha
 Forms,Formuláře,module,Magento_Captcha
@@ -6666,6 +6670,7 @@ Currency,Měna,module,Magento_CurrencySymbol
 "Use 0 to disable account locking.","Chcete-li zamykání účtů zakázat, zadejte 0.",module,Magento_Customer
 "Lockout Time (minutes)","Doba uzamčení (minuty)",module,Magento_Customer
 "Enable Autocomplete on login/forgot password forms","Zapnout automatické dokončování formulářů pro přihlášení / zapomenuté heslo",module,Magento_Customer
+"Account Information Options","Volby nastavení účtu",module,Magento_Customer
 "Change Email Template","Změna e-mailové šablony",module,Magento_Customer
 "Change Email and Password Template","Změna šablony e-mailu a hesla",module,Magento_Customer
 "Name and Address Options","Nastavení jména a adresy",module,Magento_Customer
@@ -6682,6 +6687,9 @@ Currency,Měna,module,Magento_CurrencySymbol
 "Show Date of Birth","Zobrazit datum narození",module,Magento_Customer
 "Show Tax/VAT Number","Zobrazit DIČ",module,Magento_Customer
 "Show Gender","Zobrazit pohlaví",module,Magento_Customer
+"Show Telephone","Zobrazit telefon",module,Magento_Customer
+"Show Company","Zobrazit společnost",module,Magento_Customer
+"Show Fax","Zobrazit fax",module,Magento_Customer
 "Login Options","Možnosti přihlášení",module,Magento_Customer
 "Redirect Customer to Account Dashboard after Logging in","Po přihlášení přesměrovat zákazníka na přehled účtu",module,Magento_Customer
 "Customer will stay on the current page if ""No"" is selected.","Zvolíte-li ""Ne"", zákazník zůstane na původní stránce.",module,Magento_Customer
