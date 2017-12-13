@@ -4547,6 +4547,9 @@ Condition,Podmínky,module,Magento_OfflineShipping
 "Page Cache","Mezipaměť stránky",module,Magento_PageCache
 "Full page caching.","Celostránková mezipaměť.",module,Magento_PageCache
 "Payment Methods","Způsoby platby",module,Magento_Payment
+"PayPal Payment Gateways","Platební brány PayPal",module,Magento_Paypal
+"PayPal Payment Solutions","Platební řešení PayPal",module,Magento_Paypal
+"Email Associated with PayPal Merchant Account","E-mail spojený s účtem PayPal obchodníka",module,Magento_Paypal
 "API Password","Heslo pro API",module,Magento_Paypal
 "Sandbox Credentials","Přihlašovací údaje Sandboxu",module,Magento_Paypal
 "Sandbox Mode","Režim izolovaného prostoru",module,Magento_Paypal
