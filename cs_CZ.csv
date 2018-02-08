@@ -622,7 +622,7 @@ Always,Vždy,module,Magento_Captcha
 "Every option entity must have a parent product entity.","Každá volba entity musí mít nadřazenou entitu produktu.",module,Magento_CatalogImportExport
 "Please correct the parameters.","Opravte parametry prosím.",module,Magento_CatalogImportExport
 "File '%1' was not found or has read restriction.","Soubor '%1' nebyl nalezen nebo jej nelze číst.",module,Magento_CatalogImportExport
-"ALL GROUPS",VŠICHNI,module,Magento_CatalogInventory
+"ALL GROUPS","VŠECHNY SKUPINY",module,Magento_CatalogInventory
 "Customer Group","Skupina zákazníků",module,Magento_CatalogInventory
 "Minimum Qty","Minimální množství",module,Magento_CatalogInventory
 "Add Minimum Qty","Přidat minimální množství",module,Magento_CatalogInventory
