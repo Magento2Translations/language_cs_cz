@@ -463,7 +463,7 @@ Always,Vždy,module,Magento_Captcha
 "Please type the letters below","Zadejte následující znaky prosím",module,Magento_Captcha
 "Custom options have different types.","Vlastní možnosti jsou různého typu.",module,Magento_CatalogImportExport
 "Please correct the parameters.","Opravte parametry prosím.",module,Magento_CatalogImportExport
-"ALL GROUPS",VŠICHNI,module,Magento_CatalogInventory
+"ALL GROUPS","VŠECHNY SKUPINY",module,Magento_CatalogInventory
 "Customer Group","Skupina zákazníků",module,Magento_CatalogInventory
 "Minimum Qty","Minimální množství",module,Magento_CatalogInventory
 "Add Minimum Qty","Přidat minimální množství",module,Magento_CatalogInventory
