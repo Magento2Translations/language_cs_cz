@@ -581,7 +581,7 @@ Always,Vždy,module,Magento_Captcha
 "Every option entity must have a parent product entity.","Každá volba entity musí mít nadřazenou entitu produktu.",module,Magento_CatalogImportExport
 "Please correct the parameters.","Opravte parametry prosím.",module,Magento_CatalogImportExport
 "File '%1' was not found or has read restriction.","Soubor '%1' nebyl nalezen nebo jej nelze číst.",module,Magento_CatalogImportExport
-"ALL GROUPS",VŠICHNI,module,Magento_CatalogInventory
+"ALL GROUPS","VŠECHNY SKUPINY",module,Magento_CatalogInventory
 "Customer Group","Skupina zákazníků",module,Magento_CatalogInventory
 "Minimum Qty","Minimální množství",module,Magento_CatalogInventory
 "Add Minimum Qty","Přidat minimální množství",module,Magento_CatalogInventory
@@ -601,8 +601,14 @@ Always,Vždy,module,Magento_Captcha
 "Allow Qty Below 0 and Notify Customer","Povolit přečerpání a zákazníka upozornit",module,Magento_CatalogInventory
 "In Stock",Skladem,module,Magento_CatalogInventory
 "Out of Stock","Není skladem",module,Magento_CatalogInventory
+"Unable to save Stock Item","Skladovou položku se nepodařilo uložit",module,Magento_CatalogInventory
 "Stock Item with id ""%1"" does not exist.","Položka zásoby s ID ""%1"" neexistuje.",module,Magento_CatalogInventory
+"Unable to remove Stock Item with id ""%1""","Skladovou položku s id ""%1"" se nepodařilo odstranit",module,Magento_CatalogInventory
+"Unable to save Stock","Stav skladu se nepodařilo uložit",module,Magento_CatalogInventory
 "Stock with id ""%1"" does not exist.","Zásoba s ID ""%1"" neexistuje.",module,Magento_CatalogInventory
+"Unable to remove Stock with id ""%1""","Sklad s id ""%1"" se nepodařilo odstranit",module,Magento_CatalogInventory
+"Unable to save Stock Status","Stav zásob nelze uložit",module,Magento_CatalogInventory
+"Unable to remove Stock Status for product %1","Stav zásob produktu %1 se nepodařilo odebrat",module,Magento_CatalogInventory
 "Not all of your products are available in the requested quantity.","Ne všechny vaše produkty jsou dostupné v požadovaném množství.",module,Magento_CatalogInventory
 "Product with SKU ""%1"" does not exist","Produkt s SKU ""%1"" neexistuje.",module,Magento_CatalogInventory
 "The fewest you may purchase is %1.","Můžete zakoupit nejméně %1 ks.",module,Magento_CatalogInventory
