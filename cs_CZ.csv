@@ -3932,7 +3932,7 @@ Debug,"Ladící režim",module,Magento_Backend
 "Minify Html","Komprimovat HTML",module,Magento_Backend
 "Translate Inline","Přímý překlad",module,Magento_Backend
 "Enabled for Storefront","Zapnuto v obchodu",module,Magento_Backend
-"Enabled for Admin","Povoleno v adminu",module,Magento_Backend
+"Enabled for Admin","Zapnuto ve správě",module,Magento_Backend
 "Translate, blocks and other output caches should be disabled for both Storefront and Admin inline translations.","Pro přímý překlad obchodu i správy by měly být vypnuty mezipaměti překladů, bloků a ostatních výstupů.",module,Magento_Backend
 "JavaScript Settings","Nastavení JavaScriptu",module,Magento_Backend
 "Merge JavaScript Files","Sloučit JS soubory",module,Magento_Backend
@@ -4362,7 +4362,7 @@ Debug,"Ladící režim",module,Magento_Dhl
 "Allowed Currencies","Povolené měny",module,Magento_Directory
 "Connection Timeout in Seconds","Časový limit spojení v sekundách",module,Magento_Directory
 "Scheduled Import Settings","Nastavení rozvrhu importu",module,Magento_Directory
-Enabled,Povoleno,module,Magento_Directory
+Enabled,Zapnuto,module,Magento_Directory
 "Error Email Recipient","Příjemce chybového e-mailu",module,Magento_Directory
 "Error Email Sender","Odesílatel chybového e-mailu",module,Magento_Directory
 "Error Email Template","Šablona chybového e-mailu",module,Magento_Directory
